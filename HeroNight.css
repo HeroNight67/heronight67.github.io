@@ -343,8 +343,7 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
 }
 /* WEAPON DISPLAY */
 #weapDisplay {
-    bottom: 15px;
-    right: 20px;
+    bottom: 30px;
 }
 #weapHolder {
     bottom: 15px !important;
