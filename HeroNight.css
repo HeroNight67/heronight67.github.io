@@ -346,8 +346,6 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     bottom: 30px;
 }
 #weapHolder {
-    bottom: 15px !important;
-    right: -80px !important;
     transform: scale(1.3);
 }
     /* TIMER */
