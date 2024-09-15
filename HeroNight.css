@@ -1,1 +1,885 @@
-aaa
+/* COLORS */
+:root {
+    --white: #fff;
+    --offwhite: #f8f8ff;
+    --black: #000;
+    --transp: #15151500;
+    --AE86: #868686;
+    --outline: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+    --outline2: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
+}
+/* FONT */
+@font-face {
+    font-family: gamefont;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfecg.woff2);
+}
+    /* Loading UI + Ingame UI CLASS ICON */
+/* Assault */
+img[src="https://assets.krunker.io/textures/classes/icon_0.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569042627629107/Assault.png?ex=66e37853&is=66e226d3&hm=e5cdfe7361da75a635e6ae7622dc45506d95ec7b7920516f4b5bad8ede563c71&');
+}
+/* Sniper */
+img[src="https://assets.krunker.io/textures/classes/icon_1.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569069928222792/Sniper.png?ex=66e37859&is=66e226d9&hm=7d553dd3e2e209c86bea639ce54a6c193169ff72513ccecb14941a38d0b32751&');
+}
+/* Run N Gun */
+img[src="https://assets.krunker.io/textures/classes/icon_2.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569077822160897/SMG.png?ex=66e3785b&is=66e226db&hm=c2e4eb1a39c9a6ed08435b0ea61253fe159591a5541a7204c78cb28f070a78ee&');
+}
+/* Srayn N Pray */
+img[src="https://assets.krunker.io/textures/classes/icon_3.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569085468119143/LMG.png?ex=66e3785d&is=66e226dd&hm=2cb2d90ab4e54c3dc34d4c2822e1e4c459cac1bc24e118f62669c3e0b60c682d&');
+}
+/* Vince */
+img[src="https://assets.krunker.io/textures/classes/icon_4.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569208294244412/Shotgun.png?ex=66e3787a&is=66e226fa&hm=96196f63ffb60f1df99c2f5f534060ebd73718e4c021cb4867140cbde35380c5&');
+}
+/* Detective */
+img[src="https://assets.krunker.io/textures/classes/icon_5.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569226342203463/rev.png?ex=66e3787f&is=66e226ff&hm=d9a517623a910935b472b824a36d9863ace1e92133176c4a7a35e941bac91125&');
+}
+/* Marksman */
+img[src="https://assets.krunker.io/textures/classes/icon_6.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569246076670052/semi.png?ex=66e37883&is=66e22703&hm=a4c8f891a0ee58d5bf5b8e8c00caecf17a349a35740149221fb9d60035f0a745&');
+}
+/* Rocketeer */
+img[src="https://assets.krunker.io/textures/classes/icon_7.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569268738228317/rocketeer.png?ex=66e37889&is=66e22709&hm=4f954b56cdd5030a7110531a050e084c4a6ed6bdd046d0f4a0918d50a9ccfd4a&');
+}
+/* Agent / ninja ;) */
+img[src="https://assets.krunker.io/textures/classes/icon_8.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569287088439347/uzi.png?ex=66e3788d&is=66e2270d&hm=8fd9dc629451b08ebcd29a7fea4b39742673b86aeea84c0dace7148e9d1bb1c4&');
+}
+/* Runner */
+img[src="https://assets.krunker.io/textures/classes/icon_9.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569525878427699/Runner.png?ex=66e378c6&is=66e22746&hm=6a7bb7972d9a8f10204117c4c0345f2dbf6e036dbdc492dd2a05d6411f3715ce&');
+}
+/* Deagler */
+img[src="https://assets.krunker.io/textures/classes/icon_10.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569583780794389/deagler.png?ex=66e378d4&is=66e22754&hm=d26f4cb1b31850d42d3cbb7da16dea78fe8be3fd925a04d0a33b36e56db11726&');
+}
+/* Bowman */
+img[src="https://assets.krunker.io/textures/classes/icon_11.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283570970904494150/bowman.png?ex=66e37a1f&is=66e2289f&hm=11fb171b19a45cd9aff07be4f63da8e6fa82b4276ff8a015edcd7ba513772f51&');
+}
+/* Commando */
+img[src="https://assets.krunker.io/textures/classes/icon_12.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569601434619964/famas.png?ex=66e378d8&is=66e22758&hm=b2e3b70188732bfb6a350eee95ba2ecf0420c8a16e5f1dba4edd0d6cdbcc48cc&');
+}
+/* Trooper */
+img[src="https://assets.krunker.io/textures/classes/icon_13.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569629096312872/blaster.png?ex=66e378df&is=66e2275f&hm=1952aaeb11541258e9ad8403f42aab2cf44b4106ad27f3b7977e639584acfd2d&');
+}
+/* Surviror */
+img[src="https://assets.krunker.io/textures/classes/icon_14.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569648146583584/survivor.png?ex=66e378e3&is=66e22763&hm=4dcacd413fd0fe4c7a8500cf2748252015e535f6cedbe201bfa5c7e241286c77&');
+}
+/* Infiltrator */
+img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569685761101938/chargeRifle.png?ex=66e378ec&is=66e2276c&hm=ed6d0f10e78d6a6d10f39fa8fa4d5217f8ea9c17bf893794028517cec8e280ec&');
+}
+
+/* IN-GAME HUD */
+    /* ICONS */
+#popupBack, #matchInfo, #timerIcon, #maxHP,#killsIcon, #deathsIcon, #streakIcon, #challIcon, #ammoMax, #ammoIcon, #curGameInfo, #reloadMsg, #bundlePop, #premiumPop, {
+    display: none !important
+}
+#bundlePop, #premiumPop, #popupBack, #PC7WaterMark1 {
+        display: none !important
+}
+#timerDisplay {
+    position: fixed;
+    left: 47.5%;
+    top: 1%;
+    background-color: #00000000;
+    text-shadow: 6px 2px var(--black);
+    filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));    
+}
+#timerHolder {
+        background-color: transparent !important;
+}
+#timerInner.topLeftOld {
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent !important;
+    display: inline-block;
+}
+#timerIcon {
+    display: none !important;
+}
+#timerVal.topLeftOld {
+    font-size: 45px!important;
+    filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black)) !important;
+}
+.countIcon {
+    background-color: #e60d0d00;
+    border-radius: 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.leaderNameM::before { 
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://media.tenor.com/fg7fmPchYDMAAAAi/verify-black.gif');
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 3px;
+    margin-left: -4px;
+}
+
+#deathsVal, #killsVal, #livesDisp, #streakVal, #myScoreVal {
+    color: #fff !important;
+    bottom: 7px;
+    display: flex;
+    justify-content: center;
+}
+#deathsVal::after {
+    display: block;
+    position: fixed;
+    margin-top: 35px;
+    font-size: 14px;
+    content: 'D';
+}
+#killsVal::after {
+    display: block;
+    position: fixed;
+    margin-top: 35px;
+    font-size: 14px;
+    content: 'K';
+}
+#streakVal::after {
+    display: block;
+    position: fixed;
+    margin-top: 35px;
+    font-size: 14px;
+    content: 'S';
+}
+#myScoreVal::after {
+    display: block;
+    position: fixed;
+    margin-top: 35px;
+    font-size: 14px;
+    content: 'Score';
+}
+#livesDisp::after {
+    display: block;
+    position: fixed;
+    margin-top: 35px;
+    font-size: 14px;
+    content: 'Lives';
+}
+#hudClassIcon {
+    width: 80px;
+    height: 80px;
+    bottom: 71px;
+    left: 25px;
+    border-radius: 0;
+    margin-right: 0;
+    display: block;
+    position: fixed;
+    filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
+    background-color: transparent;
+}
+#hudClassImg {
+    border-radius: 0;
+}
+    /* TRADING LOADOUT */
+#menuWindow.dark div {
+    color: #fff;
+}
+    .tTotal {
+    color: rgb(0 0 0);
+    padding-left: 5px;
+    }
+        /* NUKE ICON */
+/*
+[src="./img/streaks/0.png"] {
+    content:url();
+}
+*/
+    /* HEALTH */
+#healthValueHolder {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    left: calc(10% - 110px);
+    bottom: 49px;
+    background-color: transparent;
+}
+#healthValue {
+    color: var(--white);
+    font-size: 64px;
+    text-shadow: 8px 4px var(--black);
+    filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
+}
+#healthValue::after {
+    content: "HP";
+    font-size: 24px;
+    margin-left: 1px;
+    color: var(--white);
+    text-shadow: 4px 2px var(--outline);   
+}
+#healthBar {
+    width: 280px;
+    height: 16px;
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 0;
+    position: fixed;
+    left: calc(6% - 120px);
+    bottom: 40px;
+    transform: skewX(-24deg);
+    outline: 6px solid var(--black);
+}
+.healthBarSeg {
+    width: -webkit-fill-available;
+    margin: 0 -1px;
+    border-radius: 0;
+    background-color: transparent;
+}
+.hpBSeg {
+    border-radius: 0;
+    box-shadow: none;
+}
+.hpBSeg[style*="#cd3732"] {
+    background-color: var(--black) !important;
+}
+/* AMMO */
+#ammoHolder {
+    border-radius: 0 !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    font-size: 29px;
+    letter-spacing: -2px;
+    background-repeat: no-repeat;
+    background-size: 0% 0% !important;
+    background-image: url(../img/blank_2.png);
+    transform: translateZ(0);
+}
+.ammoDisplay {
+    transform: unset;
+    background-color: transparent;
+    position: fixed;
+    left: calc(50% - 40px);
+    bottom: calc(50% - 60px);
+    height: 8px;
+    width: 80px;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(var(--white), var(--white));
+}
+#ammoVal {
+    top: 110% !important;
+    transform: translateY(-120%) !important;
+    font-size: 80px !important;
+    filter: drop-shadow(2px 2px var(--black)) 
+            drop-shadow(-2px -2px var(--black)) 
+            drop-shadow(-2px 2px var(--black)) 
+            drop-shadow(3px -3px var(--black))
+            drop-shadow(-3px 3px var(--black)) 
+            drop-shadow(3px -3px var(--black));  
+}
+#ammoMax, #ammoIcon {
+    display: none !important;
+}
+.greyInner, .greyInlineInner, .greyInlineInnerMid {
+    background-color: transparent !important;
+}
+/* WEAPON ITEMS */
+.weapItem {
+    position: relative;
+    width: 180px;
+    height: 80px;
+    background: 0 !important;
+    text-align: left;
+    border: none !important;
+    left: -10% !important;
+    bottom: 5% !important;
+    transition-duration: 0.0447s;
+    text-shadow: 1px 0 0 #333, -1px 0 0 #333, 0 1px 0 #333, 0 -1px 0 #333, 
+                 1px 1px #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333 !important;
+}
+.weapItem[style*="1"] {
+    opacity: 1 !important;
+}
+.weapItem[style*="0.5"] {
+    transform: translate(-50%, -50%) translateX(300px);
+}
+.weapItemInner {
+    color: rgba(255, 255, 255, 0.7);
+    background: transparent !important;
+    margin: 3px;
+    padding: 2px 10px;
+    display: inline-block;
+}
+/* WEAPON ICON */
+.weapIcon {
+    background: 0 !important;
+    width: 110px;
+    height: 55px;
+    transform: scaleX(-1);
+    filter: drop-shadow(2px 2px var(--black)) 
+            drop-shadow(-2px -2px var(--black)) 
+            drop-shadow(-2px 2px var(--black)) 
+            drop-shadow(3px -3px var(--black))
+            drop-shadow(-3px 3px var(--black)); 
+    opacity: 1 !important;
+    transition-duration: 0.25s;
+    position: absolute;
+}
+.weapIcon[style*="1"] {
+    height: 80px;
+}
+#weapIconMel {
+    position: absolute;
+    right: 20px !important;
+    bottom: 20px !important;    
+}
+.weapKey, .weapSkin, .weapStreakInner {
+    display: none !important;
+}
+/* WEAPON DISPLAY */
+#weapHolder {
+    bottom: 10px !important;
+    transform: scale(1.3);
+}
+    /* TIMER */
+#uiBase.onMenu #spectateUI {
+    display: block !important;
+    position: fixed;
+    bottom: 48.5%;
+    top: unset;
+    left: 50%;
+    z-index: 1;
+    width: 10px;
+    height: 10px;
+    text-shadow: 6px 2px var(--black);
+    filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
+}
+#uiBase.onMenu #spectateHUD {
+    display: flex;
+    justify-content: center;
+    transform: unset;
+    left: unset;
+}
+#uiBase.onMenu #specTeam0, #uiBase.onMenu #spec0, #uiBase.onMenu #spec1, #uiBase.onMenu #specNames, #uiBase.onMenu #specStats, #uiBase.onMenu #specControl, #specControlHolder, #uiBase.onMenu #specKPDContr, #uiBase.onMenu #specSus, #uiBase.onMenu #specTeam1, #uiBase.onMenu #specGMessage, #uiBase.onMenu #specGameInfo {
+    display: none;
+    opacity: 0;
+    left: auto;
+}
+#uiBase.onMenu #specTimer {
+    display: block!important;
+    font-size: 50px;
+    background-color: transparent;
+    color: rgba(255,255,255,.55)
+}
+    /* LEADERBOARD */
+.leaderNameM, .newLeaderNameM, .endTableN[style='color: #fff;'] {
+    color: var(--white);
+    text-shadow: var(--outline)
+}
+.leaderNameF, .newLeaderNameF, .endTableN[style='color: rgba(255,255,255,.6);'] {
+    color: #d4d4d4 !important;
+    text-shadow: var(--outline)
+}
+.leaderName, .newLeaderName, .endTableN[style='color: #eb5656;'] {
+    color: #7d7d7d !important;
+    text-shadow: var(--outline)
+}
+.leaderScore {
+    color: var(--white) !important;
+    text-shadow: var(--outline)
+}
+.leaderCounter {
+    color: var(--white) !important;
+    text-shadow: var(--outline)
+}
+#leaderContainer {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 3px !important;
+    box-shadow: none !important;
+    bottom: 60px !important;
+}
+#leaderContainer:before {
+    content: '1st is Better' !important;
+    font-family: gamefont !important;
+    font-size: 28px !important;
+    color: #fff !important;
+    margin-bottom: 3px var(-div black);
+    text-shadow: 
+        1px 1px 3px rgba(0,0,0,0.7),
+        2px 2px 2px rgba(0,0,0,0.7),
+        3px 3px 1px rgba(0,0,0,0.7),
+        4px 4px 0 rgba(0,0,0,0.7),
+        5px 5px 0 rgba(0,0,0,0.7),
+        6px 6px 0 rgba(0,0,0,0.7) !important;
+    padding-bottom: 10px !important;
+    display: block !important;
+    text-align: left !important;
+    background-color: transparent !important;
+    position: relative;
+    border-bottom: 4px solid #fff !important;
+    border
+    padding-bottom: 4px !important;
+    filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
+}
+#leaderboardHolder {
+    background-color: transparent !important;
+}
+        /* SCORES */
+        #teamScores {
+            position: fixed;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 685px;
+            height: 50px;
+            padding: 10px;
+            padding-left: 0;
+            padding-top: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            margin-left: 0;
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+            border-radius: 0;
+            background-color: var(--transp);
+            text-shadow: var(--outline)
+        }
+
+        .tScore {
+            display: inline-block;
+            color: var(--black) !important;
+        }
+
+        #tScoreV1 {
+            position: fixed;
+            left: -25%;
+            top: 4px;
+            background-color: var(--transp)
+        }
+
+        #tScoreV2 {
+            position: fixed;
+            left: 25%;
+            top: 4px;
+            background-color: var(--transp)
+        }
+
+        .tScoreT {
+            width: 100%;
+            margin-top: 12px;
+            text-align: center;
+            font-size: 24px;
+            color: var(--white) !important;
+            text-shadow: var(--outline);
+            background-color: var(--transp);
+            z-index: 2;
+        }
+
+        .tScoreM {
+            display: none;
+            background-color: var(--transp);
+            color: var(--black) !important;
+        }
+
+        .tScoreF {
+            left: 50%;
+            width: 90px;
+            height: 60px;
+            margin-left: 125px;
+            margin-right: 125px;
+            padding-left: 0;
+            padding-right: 0;
+            background-color: var(--transp);
+            color: #7d7d7d !important;
+            opacity: 50%;
+            z-index: 1;
+        }
+
+        .tScoreF.you {
+            background-color: var(--transp);
+            color: var(--white) !important;
+            opacity: 50%;
+            z-index: 1;
+        }
+
+        .tScoreC {
+            left: 50%;
+            width: 90px;
+            height: 60px;
+            margin-left: 125px;
+            margin-right: 125px;
+            background-color: var(--transp);
+            color: var(--black) !important;
+            opacity: 50%;
+            z-index: 1;
+        }
+
+        .tScoreC.you {
+            background-color: var(--transp);
+            opacity: 50%;
+            z-index: 1;
+        }
+    /* CHAT */
+.chatItem {
+
+   background-color: var(--transp) !important;
+   color: var(--white);
+   text-shadow: var(--outline)
+}
+.chatMsg {
+    color: #84f300;
+    text-shadow: var(--outline)
+}
+.chatMsg [style="color:#fff"] {
+    color: var(--white) !important;
+    text-shadow: var(--outline)
+}
+.chatMsg[style="color:#fc03ec"] {
+    color: #ffffff !important;
+    text-shadow: var(--outline)
+}
+.chatMsg [style="color:#eb5656"] {
+    color: #7d7d7d !important;
+    text-shadow: var(--outline)
+}
+.chatMsg [style="color:#9eeb56"] {
+    color: #d4d4d4 !important;
+    text-shadow: var(--outline)
+}
+.chatMsg [style="color:#76ff03"] {
+    color: #84f300 !important;
+    text-shadow: var(--outline)
+}
+#chatInput::placeholder {
+    color: rgb(255 255 255);
+    text-shadow: var(--outline)
+}
+#chatInput {
+    background-color: var(--transp) !important;
+    border: var(--transp) !important;
+    color: var(--white);
+    text-shadow: var(--outline)
+}
+#chatInputHolder {
+    background-color: rgba(0,0,0,.5) !important;
+    border: var(--transp) !important;
+    border-radius: 9px
+}
+#chatList {
+    background-color: rgba(0,0,0,.5) !important;
+    border-radius: 9px
+}
+.tradeMsg {
+    color: #e05a5a !important;
+}
+#chatHolder {
+    position: fixed;
+    z-index: 1;
+    width: 340px;
+    bottom: 20px;
+}
+#uiBase.onMenu #chatHolder {
+    bottom: 20px !important;
+}
+    /* FPS + PING */
+#pingText:after {
+    content: ' ms';
+    color: var(--white);
+    text-shadow: var(--outline)
+}
+#pingText {
+    color: var(--white);
+    text-shadow: var(--outline)
+}
+#pingDisplay .material-icons {
+    display: none
+}
+#fpsDisplay {
+    color: var(--white);
+    text-shadow: var(--outline)
+}
+#ingameFPS {
+    color: #84f300 !important;
+    text-shadow: var(--outline)
+}
+#voiceDisplay {
+display: none !important
+}
+#faceItIconM {
+        display: none !important
+}
+#killStreakHolder {
+    position: relative;
+    bottom: 300px;
+    right: 35px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.killStreakItem {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}
+.button,.button:hover { 
+    border: hidden !important;
+}
+.menuItem:hover > .menuItemTitle {
+    color: #ff000000 !important;
+}
+.menBtnIcn {
+    color: white !important;
+}
+.buttonO,.buttonP, .buttonR, .buttonPI {
+    border: 4px solid #ffffff! important;
+}
+#faceItIconM{
+    display: none !important;
+}
+#mainLogo {
+    content: url(https://cdn.discordapp.com/attachments/1238986761028374660/1239316278733443223/aze.png?ex=66427aba&is=6641293a&hm=7fd51345ad735b49ef9faf335cdd30ddde10486e734815502d9809314414623e&);
+    width: auto; 
+    height: auto; 
+    margin-top: 10px;
+    opacity: 0.8;
+}
+#menuItem {
+    border-radius: 50px;
+}
+#mainLogoFace {
+    display: none; 
+}
+#seasonLabel {
+    display: none
+}
+#hostMenuBtn {
+    display: none !important;
+}
+    /* CUSTOMIZE */
+        /* MODEL */
+/* class Container */
+#menuClassContainer {
+    transform: unset;
+    bottom: 35px;
+}
+
+#menuClassName, #menuClassIcn, #menuClassNameTag #menuClassIcn, #menuClassSubtext, #bubbleContainer {
+    display: none !important;
+}
+#menuClassSubtext {
+    color: var(--white);
+}
+#customizeButton {
+    opacity:0;
+    bottom: 20px;
+    text-shadow:none !important;
+    height: 340px;
+    width: 340px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+    font-size: 20px!important;
+    pointer-events: all;
+    padding-bottom: 22px;
+}
+#classPreviewCanvas {
+    transition: none !important;
+    margin-bottom: -450px;
+    margin-right: -230px;
+    opacity: 0;
+    scale: 1;
+}
+#customizeButton .material-icons {
+    display: none;
+}
+#customizeButton:hover {
+    background-color: #0000005d !important;
+    color: #ffffff9f !important;
+    border: 1px solid #ffffff1c !important;
+    bottom: 50px;
+    width: 380px;
+}
+        /* CLASS */
+.classCard {
+    color: white !important;
+    background: rgba(0,0,0,0.5);
+    font-size:0;
+}
+.classWeap {
+    font-size:0;
+    color: white !important;
+    text-shadow:-1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020, -3px -3px 0 #202020, 3px -3px 0 #202020, -3px 3px 0 #202020, 3px 3px 0 #202020;
+}
+.classHP {
+    bottom: -20px;
+}
+.classHP,.classHP span,.classLvl {
+    color:white !important;
+    font-size: 0 !important;
+    transition-duration:0.3s;
+}
+.clsXPBarC {
+    background-color: #ffffff;
+}
+.classXPBar {
+    opacity:0;
+    transition-duration:0.3s;
+}
+.classCard,.classWeap {
+    font-size:0px;
+    transition-duration:0.3s;
+}
+.classImgC {
+    position:absolute;
+    right:-80px;
+    top:18px;
+    filter:saturate(0);
+    transition-duration:0.3s;
+}
+.classCard:hover .classWeap,.classCard:hover .classHP,.classCard:hover .classLvl {
+    font-size:20px !important;
+}
+.classCard:hover {
+    background-color:#000000a6;
+    font-size:20px;
+}
+.classCard:hover .classImgC {
+    transform:scale(1);
+    filter:saturate(1);
+}
+.classCard:hover .classXPBar {
+    opacity:1;
+}
+        /* LOADOUT */
+        .skinCard {
+            background-color: #00000075;
+            text-shadow: var(--outline);
+            font-size: 20px;
+        }
+        .skinCard:hover {
+            background-color: var(--transp);
+        }
+        .itemOwn:after {
+            display: none;
+        }
+        .itemSea {
+            color: var(--transp) !important
+        }
+        .skinImgD {
+            margin-top: 10px;
+            margin-bottom: 40px;
+            width: 100px;
+            transition: all .15s ease-in-out; 
+        }
+        .skinRandom {
+            color: #eee;
+            position: absolute;
+            top: 58px;   
+        }
+        .blackShad {
+            text-shadow: -1px -1px 0 #1c1c1c, 1px -1px 0 #1c1c1c, -1px 1px 0 #1c1c1c, 1px 1px 0 #1c1c1c, -2px -2px 0 #1c1c1c, 2px -2px 0 #1c1c1c, -2px 2px 0 #1c1c1c, 2px 2px 0 #1c1c1c;
+        }
+
+/* Loading UI */ /*--*/ /* This CSS is made by HeroNight, and anyone else has no right into reselling it. DM on Discord : HeroNight67 for more information*/
+
+#menuBtnHost, #menuBtnBrowser, #inviteButton, #menuBtnJoin, #policeButton {
+    bottom: -115px;
+}
+#instructions {
+        filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));    
+}
+.tItemCnt {
+    position: absolute;
+    top: 1px;
+    right: 6px;
+    font-size: 8px;
+    color: #fff;
+    font-size: 0.8em;
+}
+#policeButton {
+    border: 4px solid #ffffff!important;
+    image-rendering:pixelated;
+    background-color:#0004;
+    position:relative;
+}
+#policeButton:hover {
+    background-color:rgba(0, 0, 0, 0.349);
+    border : 0px solid #ffffff!important;
+}
+#menuKRCount,#menuJNKCount {
+    margin-right:10px;
+}
+#mailIcon:hover {
+    opacity:1;
+    transform:scale(1.1);
+}
+.progressBarInner {
+    background-image:none;
+    background-color:var(--white);
+}
+#mLevelContV:before {
+    content:'LVL ';
+}
+#spectButton [style*="font-size:15px;color:rgba(255,255,255,0.6)"] {
+    display: none;
+}
+#spectButton .switchsml {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+#spectButton .sliderSml {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+#spectButton .sliderSml:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+#spectButton input[type="checkbox"] {
+    display: none;
+}
+#spectButton input[type="checkbox"]:checked + .sliderSml {
+    background-color: #414141;
+}
+#spectButton input[type="checkbox"]:checked + .sliderSml:before {
+    -webkit-transform: translateX(22px);
+    -ms-transform: translateX(22px);
+    transform: translateX(22px);
+}
+#mapInfo, #matchInfo.topLeftOld {
+    display: none !important
+}
+#topRightAdHolder, #mapInfoHld, #krDiscountAd, #infoHolder, #topLeftAdHolder, #streamContainer, #menuTimer, #PC7WaterMark, #PC7WaterMark2, #editorBtnM, .menuSocialB, .verticalSeparator {
+    display: none !important;
+}
+#aMerger {
+    opacity: 0; 
+
+/*By HeroNight*/
