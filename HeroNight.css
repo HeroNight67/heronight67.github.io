@@ -81,10 +81,10 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
 
 /* IN-GAME HUD */
     /* ICONS */
-#popupBack, #matchInfo, #timerIcon, #maxHP,#killsIcon, #deathsIcon, #streakIcon, #challIcon, #ammoMax, #ammoIcon, #curGameInfo, #reloadMsg, #bundlePop, #premiumPop, {
+#matchInfo, #timerIcon, #maxHP,#killsIcon, #deathsIcon, #streakIcon, #challIcon, #ammoMax, #ammoIcon, #curGameInfo, #reloadMsg, #bundlePop, #premiumPop, {
     display: none !important
 }
-#bundlePop, #premiumPop, #popupBack, #PC7WaterMark1 {
+#bundlePop, #premiumPop, #PC7WaterMark1 {
         display: none !important
 }
 #timerDisplay {
