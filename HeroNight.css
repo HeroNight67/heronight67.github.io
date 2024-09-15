@@ -120,13 +120,17 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     padding: 10px;
 }
 .leaderNameM::before { 
-    font-size: 23px;
-    display: none;
-    content: "♛";
-    margin-top: -23px;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://media.tenor.com/fg7fmPchYDMAAAAi/verify-black.gif');
+    background-size: cover;
+    vertical-align: middle;
     margin-right: 3px;
     margin-left: -4px;
 }
+
 #deathsVal, #killsVal, #livesDisp, #streakVal, #myScoreVal {
     color: #fff !important;
     bottom: 7px;
@@ -326,9 +330,6 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     opacity: 1 !important;
     transition-duration: 0.25s;
     position: absolute;
-    right: 85px !important;
-    bottom: -70px !important;
-
 }
 .weapIcon[style*="1"] {
     height: 80px;
@@ -342,10 +343,8 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     display: none !important;
 }
 /* WEAPON DISPLAY */
-#weapDisplay {
-    bottom: 30px;
-}
 #weapHolder {
+    bottom: 10px !important;
     transform: scale(1.3);
 }
     /* TIMER */
@@ -406,6 +405,7 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     margin: 0 !important;
     border-radius: 3px !important;
     box-shadow: none !important;
+    bottom: 60px !important;
 }
 #leaderContainer:before {
     content: '1st is Better' !important;
