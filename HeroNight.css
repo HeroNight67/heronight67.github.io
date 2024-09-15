@@ -84,7 +84,7 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
 #matchInfo, #timerIcon, #maxHP,#killsIcon, #deathsIcon, #streakIcon, #challIcon, #ammoMax, #ammoIcon, #curGameInfo, #reloadMsg, #bundlePop, #premiumPop, {
     display: none !important
 }
-#bundlePop, #premiumPop, #PC7WaterMark1 {
+#premiumPop, #PC7WaterMark1 {
         display: none !important
 }
 #timerDisplay {
@@ -861,7 +861,7 @@ display: none !important
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
-}
+} 
 #spectButton input[type="checkbox"] {
     display: none;
 }
