@@ -664,11 +664,7 @@ display: none !important
     display: none !important;
 }
 #mainLogo {
-    content: url(https://cdn.discordapp.com/attachments/1238986761028374660/1239316278733443223/aze.png?ex=66427aba&is=6641293a&hm=7fd51345ad735b49ef9faf335cdd30ddde10486e734815502d9809314414623e&);
-    width: auto; 
-    height: auto; 
-    margin-top: 10px;
-    opacity: 0.8;
+    visibility: hidden !important;
 }
 #menuItem {
     border-radius: 50px;
