@@ -16,72 +16,73 @@
     /* Loading UI + Ingame UI CLASS ICON */
 /* Assault */
 img[src="https://assets.krunker.io/textures/classes/icon_0.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569042627629107/Assault.png?ex=66e96713&is=66e81593&hm=dc804e7791692f5c39a01a4fe90fab7164fde388b959517cde4bff22600bf2c4&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/Assault.png');
 }
 /* Sniper */
 img[src="https://assets.krunker.io/textures/classes/icon_1.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569069928222792/Sniper.png?ex=66e96719&is=66e81599&hm=42ad8ac6bd7820b53cc79e34307d94490e44f5403527ea587022eb92c24ce576&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/Sniper.png');
 }
 /* Run N Gun */
 img[src="https://assets.krunker.io/textures/classes/icon_2.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569077822160897/SMG.png?ex=66e9671b&is=66e8159b&hm=560e4f71faa7132e3c9b5346c00abb372e176e085d1cbe2a414aaa7db41a3871&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/SMG.png');
 }
 /* Srayn N Pray */
 img[src="https://assets.krunker.io/textures/classes/icon_3.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569085468119143/LMG.png?ex=66e9671d&is=66e8159d&hm=0ccd1df6cf3c0fc5784b518c3db64b739f65a5d4ca5c8d6d44762aa9a1a0e2c0&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/LMG.png');
 }
 /* Vince */
 img[src="https://assets.krunker.io/textures/classes/icon_4.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569208294244412/Shotgun.png?ex=66e9673a&is=66e815ba&hm=fae5794b57b74b68828b1498fb7bee9e7e1b779284354d5bd0518a863da8ec32&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/Shotgun.png');
 }
 /* Detective */
 img[src="https://assets.krunker.io/textures/classes/icon_5.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569226342203463/rev.png?ex=66e9673f&is=66e815bf&hm=0157f1c78395d422d34fa0a94673008f3c838d883bc04f86223ec4c3db8e76bc&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/rev.png');
 }
 /* Marksman */
 img[src="https://assets.krunker.io/textures/classes/icon_6.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569246076670052/semi.png?ex=66e96743&is=66e815c3&hm=5121423a1c35661bdfa46a235373c223d5d5a0a13b9948bcdea1941dcee4656b&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/semi.png');
 }
 /* Rocketeer */
 img[src="https://assets.krunker.io/textures/classes/icon_7.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569268738228317/rocketeer.png?ex=66e96749&is=66e815c9&hm=9251478b4251809955d0c5da3c8310f91d0bedaa6bde81a67ca88c45f7e0bc43&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/rocketeer.png');
 }
 /* Agent / ninja ;) */
 img[src="https://assets.krunker.io/textures/classes/icon_8.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569287088439347/uzi.png?ex=66e9674d&is=66e815cd&hm=c8aa328b1b320a20c0e12ae1d8493c69bf8bc14cceb2ed82912008413af565c8&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/uzi.png');
 }
 /* Runner */
 img[src="https://assets.krunker.io/textures/classes/icon_9.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569525878427699/Runner.png?ex=66e96786&is=66e81606&hm=73209337cba474a1c13d550be6773e72a2590dba44b90f071adca81735579369&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/Runner.png');
 }
 /* Deagler */
 img[src="https://assets.krunker.io/textures/classes/icon_10.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569583780794389/deagler.png?ex=66e96794&is=66e81614&hm=f36f5c520c08f8190e9b0b7993acf59d72ec1cb8f53b554f6428264166078e87&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/deagler.png');
 }
 /* Bowman */
 img[src="https://assets.krunker.io/textures/classes/icon_11.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283570970904494150/bowman.png?ex=66e968df&is=66e8175f&hm=9e38723dc869c9a29a0f3d549de19e6c6e12e768b0aac6df167f7100cde0b086&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/bowman.png');
 }
 /* Commando */
 img[src="https://assets.krunker.io/textures/classes/icon_12.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569601434619964/famas.png?ex=66e378d8&is=66e22758&hm=b2e3b70188732bfb6a350eee95ba2ecf0420c8a16e5f1dba4edd0d6cdbcc48cc&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/famas.png');
 }
 /* Trooper */
 img[src="https://assets.krunker.io/textures/classes/icon_13.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569629096312872/blaster.png?ex=66e9679f&is=66e8161f&hm=0a609716c5d9e1ea6e44a07cac7e6d81c3b7365e36ec6a3f28cd8f6336202d5d&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/blaster.png');
 }
 /* Surviror */
 img[src="https://assets.krunker.io/textures/classes/icon_14.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569648146583584/survivor.png?ex=66e967a3&is=66e81623&hm=5bf690566982ac91b870678751ed6fa59fdead6dfb51eec39ff04abcf084b406&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/survivor.png');
 }
 /* Infiltrator */
 img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
-    content: url('https://cdn.discordapp.com/attachments/1283568912134312037/1283569685761101938/chargeRifle.png?ex=66e967ac&is=66e8162c&hm=65ea60705d3f6d3a13409fbb7a295f5b7dd74870675d1dfd937ff744e3a4bd05&');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/chargeRifle.png');
 }
+
 
 /* IN-GAME HUD */
     /* ICONS */
-#matchInfo, #timerIcon, #maxHP,#killsIcon, #deathsIcon, #streakIcon, #ammoMax, #ammoIcon, #curGameInfo, #reloadMsg, #bundlePop, #premiumPop, {
+#matchInfo, #timerIcon, #maxHP, #ammoMax, #ammoIcon, #curGameInfo, #reloadMsg, #bundlePop, #premiumPop, {
     display: none !important
 }
 #premiumPop, #PC7WaterMark1 {
@@ -122,8 +123,8 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
 .leaderNameM::before { 
     content: "";
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     background-image: url('https://media.tenor.com/fg7fmPchYDMAAAAi/verify-black.gif');
     background-size: cover;
     vertical-align: middle;
@@ -137,6 +138,7 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     display: flex;
     justify-content: center;
 }
+
 #deathsVal::after {
     display: block;
     position: fixed;
@@ -188,9 +190,6 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     border-radius: 0;
 }
     /* TRADING LOADOUT */
-#menuWindow.dark div {
-    color: #fff;
-}
     .tTotal {
     color: rgb(0 0 0);
     padding-left: 5px;
@@ -258,6 +257,7 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     background-repeat: no-repeat;
     background-size: 0% 0% !important;
     background-image: url(../img/blank_2.png);
+    bottom: 10px !important;
     transform: translateZ(0);
 }
 .ammoDisplay {
@@ -265,7 +265,6 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     background-color: transparent;
     position: fixed;
     left: calc(50% - 40px);
-    bottom: calc(50% - 60px);
     height: 8px;
     width: 80px;
     padding: 0;
@@ -273,15 +272,17 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     background-image: linear-gradient(var(--white), var(--white));
 }
 #ammoVal {
-    top: 110% !important;
-    transform: translateY(-120%) !important;
+    transform: translateY(-100%) !important;
     font-size: 80px !important;
     filter: drop-shadow(2px 2px var(--black)) 
             drop-shadow(-2px -2px var(--black)) 
             drop-shadow(-2px 2px var(--black)) 
             drop-shadow(3px -3px var(--black))
             drop-shadow(-3px 3px var(--black)) 
-            drop-shadow(3px -3px var(--black));  
+            drop-shadow(3px -3px var(--black));
+    position: fixed;
+    bottom: -40px !important;
+    left: -95px !important;  
 }
 #ammoMax, #ammoIcon {
     display: none !important;
@@ -291,13 +292,13 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
 }
 /* WEAPON ITEMS */
 .weapItem {
-    position: relative;
+    position: fixed;
     width: 180px;
     height: 80px;
     background: 0 !important;
     text-align: left;
     border: none !important;
-    left: -10% !important;
+    right: 10% !important;
     bottom: 5% !important;
     transition-duration: 0.0447s;
     text-shadow: 1px 0 0 #333, -1px 0 0 #333, 0 1px 0 #333, 0 -1px 0 #333, 
@@ -423,7 +424,6 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     background-color: transparent !important;
     position: relative;
     border-bottom: 4px solid #fff !important;
-    border
     padding-bottom: 4px !important;
     filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
 }
@@ -563,22 +563,29 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
 }
 #chatInput {
     background-color: var(--transp) !important;
-    border: var(--transp) !important;
     color: var(--white);
-    text-shadow: var(--outline)
+    border: var(--transp) !important;
+    text-shadow: var(--outline); 
+    font-size: 18px;
 }
 #chatInputHolder {
-    background-color: rgba(0,0,0,.5) !important;
-    border: var(--transp) !important;
-    border-radius: 9px;
+    width: 340px  !important;
+    background-color: rgba(0,0,0,.3) !important;
+    border-radius: 6px;
     grid-template-columns: auto 200px auto;
 }
 #chatList {
     background-color: rgba(0,0,0,.5) !important;
-    border-radius: 9px
+    border-radius: 6px
 }
 .tradeMsg {
     color: #e05a5a !important;
+}
+.voiceOff:after {
+    display: none !important;
+}
+#recTimer {
+    display: none !important;
 }
 #chatHolder {
     position: fixed;
@@ -589,10 +596,14 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
 #uiBase.onMenu #chatHolder {
     bottom: 20px !important;
 }
+#voiceDisplay {
+display: none !important
+}
 /*Bottom left Box ( Icon + health) */
 
 #bottomLeftPlayer {
-    background-color: rgb(0 0 0 / 0.5);
+    background-color: rgb(0, 0, 0, 0);
+    grid-template-columns: auto 190px auto;
 }
 #bottomLeftTeamType, #bottomLeftTeamName {
     visibility: hidden !important;
@@ -601,26 +612,42 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     background-color: rgb(0 0 0 / 0);
 }
 #bottomLeftHealth {
-        filter: drop-shadow(2px 2px var(--black)) 
-            drop-shadow(-2px -2px var(--black));
+    filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(3px -3px var(--black)) drop-shadow(-3px 3px var(--black));
+    font-size: 34px !important;
+    position: fixed;
+    left: 140px !important;
+    bottom: 65px !important;
+    border: none !important;
 }
+#bottomLeftHealth::after {
+    content: "HP" !important;
+    text-shadow:-1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020;
+    position: absolute;
+    font-size: 24px !important;
+    left: 70px !important;
+    bottom: 8px !important;
+    color: white;
+}
+#bottomLeftChallIcon {
+    display: none;
+}
+#bottomLeftChallIcon::before {
+    content: "HP";
+    filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(3px -3px var(--black)) drop-shadow(-3px 3px var(--black));
+    font-size: 34px !important;
+    display: inline-block;
+}
+
 .nHpBSeg {
     color: rgba(0, 0, 0, 1.0) !important;
     background-color: rgba(0, 0, 0, 1.0) !important;
 }
 
     /* FPS + PING */
-#pingText:after {
-    content: ' ms';
+
+#pingDisplay {
     color: var(--white);
     text-shadow: var(--outline)
-}
-#pingText {
-    color: var(--white);
-    text-shadow: var(--outline)
-}
-#pingDisplay .material-icons {
-    display: none
 }
 #fpsDisplay {
     color: var(--white);
@@ -630,9 +657,7 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     color: #84f300 !important;
     text-shadow: var(--outline)
 }
-#voiceDisplay {
-display: none !important
-}
+    /* Random need to sort  */
 #faceItIconM {
         display: none !important
 }
@@ -660,7 +685,7 @@ display: none !important
 .buttonO,.buttonP, .buttonR, .buttonPI {
     border: 4px solid #ffffff! important;
 }
-#faceItIconM{
+#faceItIconM, #mainLogoFace, #seasonLabel, #hostMenuBtn {
     display: none !important;
 }
 #mainLogo {
@@ -669,15 +694,7 @@ display: none !important
 #menuItem {
     border-radius: 50px;
 }
-#mainLogoFace {
-    display: none; 
-}
-#seasonLabel {
-    display: none
-}
-#hostMenuBtn {
-    display: none !important;
-}
+
     /* CUSTOMIZE */
         /* MODEL */
 /* class Container */
@@ -685,7 +702,32 @@ display: none !important
     transform: unset;
     bottom: 35px;
 }
-
+.noBtnCard, .streakCard {
+    background-color: rgba(0,0,0,0);
+}
+#itemSearchH, #itemSearch, .settingsHeader, #bindsHeader {
+    background-color: rgba(0,0,0,0);
+    border: none !important;
+}
+#itemSearch::placeholder {
+    color: #fff;
+}
+#trustProgHD {
+    font-size: 19px !important;
+}
+#policePopC div {
+    color: white !important;
+}
+.importPop, #policePopC {
+    border: 2px solid #fff !important;
+    background-color: rgba(0,0,0,0.7);
+}
+#menuWindow.dark, #itemSearch, .winSelH, .custBack, .instructionsHeader, .instructionsTabs{
+    background-color: rgba(0,0,0,0.5);
+}
+#selectorContainer, .setHed, #instructionsUpdate {
+    background-color: rgba(0,0,0,0.7);
+}
 #menuClassName, #menuClassIcn, #menuClassNameTag #menuClassIcn, #menuClassSubtext, #bubbleContainer {
     display: none !important;
 }
@@ -725,6 +767,7 @@ display: none !important
         /* CLASS */
 .classCard {
     color: white !important;
+    border: 2px solid #ffffff! important;
     background: rgba(0,0,0,0.5);
     font-size:0;
 }
@@ -735,6 +778,14 @@ display: none !important
 }
 .classHP {
     bottom: -20px;
+}
+.selectorItem .selectorIcon{
+    filter: saturate(0);
+    transition-duration: 0.3s;
+}
+.selectorItem:hover .selectorIcon {
+    transform:scale(1);
+    filter:saturate(1);
 }
 .classHP,.classHP span,.classLvl {
     color:white !important;
@@ -749,15 +800,15 @@ display: none !important
     transition-duration:0.3s;
 }
 .classCard,.classWeap {
-    font-size:0px;
-    transition-duration:0.3s;
+    font-size: 0px;
+    transition-duration: 0.3s;
 }
 .classImgC {
     position:absolute;
-    right:-80px;
-    top:18px;
-    filter:saturate(0);
-    transition-duration:0.3s;
+    right: -80px;
+    top: 18px;
+    filter: saturate(0);
+    transition-duration: 0.3s;
 }
 .classCard:hover .classWeap,.classCard:hover .classHP,.classCard:hover .classLvl {
     font-size:20px !important;
@@ -806,7 +857,7 @@ display: none !important
 /* Loading UI */ /*--*/ /* This CSS is made by HeroNight, and anyone else has no right into reselling it. DM on Discord : HeroNight67 for more information*/
 
 #menuBtnHost, #menuBtnBrowser, #inviteButton, #menuBtnJoin, #policeButton {
-    bottom: -115px;
+    bottom: -135px;
 }
 #instructions {
         filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));    
