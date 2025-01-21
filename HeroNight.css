@@ -4,7 +4,6 @@
     --offwhite: #f8f8ff;
     --black: #000;
     --transp: #15151500;
-    --AE86: #868686;
     --outline: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
     --outline2: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
 }
@@ -15,70 +14,89 @@
 }
     /* Loading UI + Ingame UI CLASS ICON */
 /* Assault */
-img[src="https://assets.krunker.io/textures/classes/icon_0.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_0.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/Assault.png');
 }
 /* Sniper */
-img[src="https://assets.krunker.io/textures/classes/icon_1.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_1.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/Sniper.png');
 }
 /* Run N Gun */
-img[src="https://assets.krunker.io/textures/classes/icon_2.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_2.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/SMG.png');
 }
 /* Srayn N Pray */
-img[src="https://assets.krunker.io/textures/classes/icon_3.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_3.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/LMG.png');
 }
 /* Vince */
-img[src="https://assets.krunker.io/textures/classes/icon_4.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_4.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/Shotgun.png');
 }
 /* Detective */
-img[src="https://assets.krunker.io/textures/classes/icon_5.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_5.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/rev.png');
 }
 /* Marksman */
-img[src="https://assets.krunker.io/textures/classes/icon_6.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_6.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/semi.png');
 }
 /* Rocketeer */
-img[src="https://assets.krunker.io/textures/classes/icon_7.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_7.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/rocketeer.png');
 }
 /* Agent / ninja ;) */
-img[src="https://assets.krunker.io/textures/classes/icon_8.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_8.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/uzi.png');
 }
 /* Runner */
-img[src="https://assets.krunker.io/textures/classes/icon_9.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_9.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/Runner.png');
 }
 /* Deagler */
-img[src="https://assets.krunker.io/textures/classes/icon_10.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_10.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/deagler.png');
 }
 /* Bowman */
-img[src="https://assets.krunker.io/textures/classes/icon_11.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_11.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/bowman.png');
 }
 /* Commando */
-img[src="https://assets.krunker.io/textures/classes/icon_12.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_12.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/famas.png');
 }
 /* Trooper */
-img[src="https://assets.krunker.io/textures/classes/icon_13.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_13.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/blaster.png');
 }
 /* Surviror */
-img[src="https://assets.krunker.io/textures/classes/icon_14.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_14.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/survivor.png');
 }
 /* Infiltrator */
-img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNgeGecufFFR9kAfbi6THg5Jk2"] {
+img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/chargeRifle.png');
 }
-
+/* EndGame Icon */
+#victorySub {
+    visibility:hidden !important;
+}
+/* Defeat */
+#victorySub img[src="https://krunker.io/img/def.png"]::after {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/refs/heads/main/def.png');
+    display: inline-block;
+    visibility:visible !important;
+    width: 100px;
+    height: auto;
+}
+/* Victory */
+#victorySub img[src="https://krunker.io/img/vic.png"]::after {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/refs/heads/main/vic.png');
+    display: inline-block;
+    visibility:visible !important;
+    width: 100px;
+    height: auto;
+}
 
 /* IN-GAME HUD */
     /* ICONS */
@@ -96,8 +114,55 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     text-shadow: 6px 2px var(--black);
     filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));    
 }
+#windowCloser {
+    background-color: rgba(0, 0, 0,.8);
+}
+.accountInput {
+    background-color: rgb(255 255 255 / 0.05);    
+}
+
+.joinBtn {
+    background-color: #000000;
+    border: 1px solid;
+}
+#menuWindow > div:nth-child(2) {
+    background-color: #0000 !important;
+}
+.premText i {
+    padding-right: 5px;
+}
+.pubHed {
+    background: rgb(0 0 0 / 96%);
+    border-bottom: 2px solid #fff !important;    
+    border-radius: 12px;
+}
+.mapFndB {
+    background-color: #000000 !important;
+}
+.mapFndB:hover {
+    border: 2px solid #fff !important;
+}
+.confPremiumPop {
+    background-color: rgb(0 0 0 / 0.7);
+    border: 1px solid #fff !important;
+}
 #timerHolder {
         background-color: transparent !important;
+}
+#specStats.topLeftOld {
+    background-color: rgb(0 0 0 / 70%);
+    border-radius: 6px !important;
+}
+#specStatsInner {
+    background-color: rgba(0, 0, 0, 0);
+}
+#spectHPV {
+    display: none !important;
+}
+#spectHPBI {
+  filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
+  background-color: rgb(74 74 74 / 0.7) !important;
+  z-index: 0 !important;
 }
 #timerInner.topLeftOld {
     padding: 0px;
@@ -120,60 +185,54 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     margin-bottom: 0;
     padding: 10px;
 }
+/* LeaderBoard Badge 
+
 .leaderNameM::before { 
     content: "";
     display: inline-block;
     width: 18px;
     height: 18px;
-    background-image: url('https://media.tenor.com/fg7fmPchYDMAAAAi/verify-black.gif');
+    background-image: url('GIF YOU WANT');
     background-size: cover;
     vertical-align: middle;
     margin-right: 3px;
     margin-left: -4px;
+}*/
+.statIcon,.greyInner {
+    background:transparent;
+    margin-bottom:0px;
+    filter: drop-shadow(-1px -1px var(--black)) drop-shadow(1px 1px var(--black)) drop-shadow(-1px 1px var(--black)) drop-shadow(1px -1px var(--black));    
 }
 
-#deathsVal, #killsVal, #livesDisp, #streakVal, #myScoreVal {
-    color: #fff !important;
-    bottom: 7px;
-    display: flex;
-    justify-content: center;
+#scoreCount > div > i.material-icons {
+    display:none
+}
+#killsVal, #deathsVal, #streakVal, #myScoreVal, #kdVal, #livesDisp {
+    color: rgb(255 255 255);
+}
+#livesDisp::after, #killsVal:after,#deathsVal:after,#kdVal::after,#streakVal:after,#myScoreVal:after {
+    font-size:12px;
 }
 
-#deathsVal::after {
-    display: block;
-    position: fixed;
-    margin-top: 35px;
-    font-size: 14px;
-    content: 'D';
+#killsVal:after {
+    content:" K"
 }
-#killsVal::after {
-    display: block;
-    position: fixed;
-    margin-top: 35px;
-    font-size: 14px;
-    content: 'K';
+#deathsVal:after {
+    content:" D"}
+
+#streakVal:after {
+    content:" S"
 }
-#streakVal::after {
-    display: block;
-    position: fixed;
-    margin-top: 35px;
-    font-size: 14px;
-    content: 'S';
+#kdVal::after {
+    content:" KD"
 }
-#myScoreVal::after {
-    display: block;
-    position: fixed;
-    margin-top: 35px;
-    font-size: 14px;
-    content: 'Score';
+#myScoreVal:after {
+    content:" Score"
 }
 #livesDisp::after {
-    display: block;
-    position: fixed;
-    margin-top: 35px;
-    font-size: 14px;
-    content: 'Lives';
+    content: 'Lives'
 }
+
 #hudClassIcon {
     width: 80px;
     height: 80px;
@@ -188,6 +247,32 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
 }
 #hudClassImg {
     border-radius: 0;
+}
+.centerLeaderContainer{
+  background-color: rgba(0 0 0 / 0%);
+}
+.centerLeaderContainerInner {
+  background-color: rgba(0 0 0 / 60%);
+  border: 2px  solid #fff;
+  border-radius: 6px;
+}
+#krTagHolder > div > div {
+    background-color: rgb(255 255 255 / 0%) !important;
+    position: fixed;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 0px;
+    width: 100px;
+    height: 100px;
+}
+.killStreakCnt {
+    position: absolute;
+    text-align: right;
+    right: 4px;
+    bottom: 4px;
+    color: #fff;
+    font-size: 35px;
+    filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
 }
     /* TRADING LOADOUT */
     .tTotal {
@@ -260,6 +345,7 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     bottom: 10px !important;
     transform: translateZ(0);
 }
+
 .ammoDisplay {
     transform: unset;
     background-color: transparent;
@@ -274,12 +360,7 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
 #ammoVal {
     transform: translateY(-100%) !important;
     font-size: 80px !important;
-    filter: drop-shadow(2px 2px var(--black)) 
-            drop-shadow(-2px -2px var(--black)) 
-            drop-shadow(-2px 2px var(--black)) 
-            drop-shadow(3px -3px var(--black))
-            drop-shadow(-3px 3px var(--black)) 
-            drop-shadow(3px -3px var(--black));
+    filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
     position: fixed;
     bottom: -40px !important;
     left: -95px !important;  
@@ -288,7 +369,7 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     display: none !important;
 }
 .greyInner, .greyInlineInner, .greyInlineInnerMid {
-    background-color: transparent !important;
+    background-color: rgb(1 1 1 / 0%);
 }
 /* WEAPON ITEMS */
 .weapItem {
@@ -364,6 +445,7 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     transform: unset;
     left: unset;
 }
+
 #uiBase.onMenu #specTeam0, #uiBase.onMenu #spec0, #uiBase.onMenu #spec1, #uiBase.onMenu #specNames, #uiBase.onMenu #specStats, #uiBase.onMenu #specControl, #specControlHolder, #uiBase.onMenu #specKPDContr, #uiBase.onMenu #specSus, #uiBase.onMenu #specTeam1, #uiBase.onMenu #specGMessage, #uiBase.onMenu #specGameInfo {
     display: none;
     opacity: 0;
@@ -411,13 +493,6 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
     font-size: 28px !important;
     color: #fff !important;
     margin-bottom: 3px var(-div black);
-    text-shadow: 
-        1px 1px 3px rgba(0,0,0,0.7),
-        2px 2px 2px rgba(0,0,0,0.7),
-        3px 3px 1px rgba(0,0,0,0.7),
-        4px 4px 0 rgba(0,0,0,0.7),
-        5px 5px 0 rgba(0,0,0,0.7),
-        6px 6px 0 rgba(0,0,0,0.7) !important;
     padding-bottom: 10px !important;
     display: block !important;
     text-align: left !important;
@@ -528,7 +603,6 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=52xhevJNge
         }
     /* CHAT */
 .chatItem {
-
    background-color: var(--transp) !important;
    color: var(--white);
    text-shadow: var(--outline)
@@ -642,20 +716,38 @@ display: none !important
     color: rgba(0, 0, 0, 1.0) !important;
     background-color: rgba(0, 0, 0, 1.0) !important;
 }
-
     /* FPS + PING */
 
+#fpsDisplay, #pingDisplay {
+    font-size: 0 !important;
+    display: inline-block;
+    width: 100px;
+}
 #pingDisplay {
-    color: var(--white);
-    text-shadow: var(--outline)
+    position: fixed !important;
+    display: block;
 }
-#fpsDisplay {
-    color: var(--white);
-    text-shadow: var(--outline)
+#pingText {
+    color: #fff !important;
 }
-#ingameFPS {
-    color: #84f300 !important;
-    text-shadow: var(--outline)
+#ingameFPS::before {
+    content: "FPS: ";
+    padding-right: 5px !important;
+}
+#pingText::before {
+    content: "PING: ";
+    padding-right: 5px !important;
+    left: 5px !important;
+}
+#ingameFPS, #pingText {
+    color: var(--white) !important;
+    font-size: 20px;
+    filter: drop-shadow(1px 1px var(--black)) drop-shadow(-1px -1px var(--black)) drop-shadow(-1px 1px var(--black)) drop-shadow(1px -1px var(--black));
+}
+.debugInfo {
+    position: absolute;
+    left: 30% !important;
+    transform: scale(1);
 }
     /* Random need to sort  */
 #faceItIconM {
@@ -705,9 +797,21 @@ display: none !important
 .noBtnCard, .streakCard {
     background-color: rgba(0,0,0,0);
 }
-#itemSearchH, #itemSearch, .settingsHeader, #bindsHeader {
+#searchResultsMO {
+    color: white !important;
+}
+.settingsHeader {
+  padding-right: 20px;
+}
+#itemSearchH {
     background-color: rgba(0,0,0,0);
+}
+#itemSearch, .settingsHeader, #bindsHeader, .serverHeader {
+    background-color: rgb(2 2 2 / 1);
     border: none !important;
+}
+#policePopC {
+    height: 400px !important;
 }
 #itemSearch::placeholder {
     color: #fff;
@@ -722,18 +826,136 @@ display: none !important
     border: 2px solid #fff !important;
     background-color: rgba(0,0,0,0.7);
 }
-#menuWindow.dark, #itemSearch, .winSelH, .custBack, .instructionsHeader, .instructionsTabs{
+.vouchPop, .redVouchBtn, .ticketPop {
+    border: 2px solid #fff !important;
+    background-color: rgba(0,0,0,0.7);
+}
+.redVouchBtn {
+    pointer-events: all;
+    transition: all .08s;
+}
+.popHeader, .dropsPopHeader {
+    border-bottom: 2px solid #fff !important;
+    border-radius: 9px;
+}
+#menuWindow.dark::-webkit-scrollbar {
+    display: none;
+}
+.dxp-img-anim {
+    height: 534px;
+    top: 0px;
+}
+.dxp-img {
+    width: 800px;
+}
+
+#menuWindow.dark, #itemSearch,.bp-generic-pop, .bp-purchase-pop,.dxp-pop, .winSelH, .custBack, .instructionsHeader, .instructionsTabs{
     background-color: rgba(0,0,0,0.5);
 }
-#selectorContainer, .setHed, #instructionsUpdate {
-    background-color: rgba(0,0,0,0.7);
+
+#selectorContainer, .setHed, .setHedS, #instructionsUpdate, .hostHeader, #stickyHostH {
+    background-color: rgba(0,0,0,0.9);
 }
 #menuClassName, #menuClassIcn, #menuClassNameTag #menuClassIcn, #menuClassSubtext, #bubbleContainer {
     display: none !important;
 }
+.smlInput {
+    background-color: rgba(255,255,255,.05);    
+}
+#menuWindow > div:nth-child(1) > div > div:nth-child(9) > span {
+    padding-right: 10px !important;
+}
+#menuWindow > div.serverHeader {
+    width: 101%;
+    transform: scale(1.03)
+}
+#menuWindow > div.bigMenTabs > div.bigMenTab.bigMenTabA > span, #shopHeader > div.bigMenTabs > div.bigMenTab.bigMenTabA > span, #menuWindow > div:nth-child(1) > div > div.bigMenTab.bigMenTabA > span {
+    color: rgb(255 255 255 / 0.85) !important;    
+}
+.subPassChg {
+    background-color: rgb(255 255 255 / 5%) !important;
+    border: 1px solid #fff;
+}
+#menuWindow.dark .settName .updDisN{
+    background-color: rgb(255 255 255 / 5%) !important;
+    border: 1px solid #fff;
+}
+.settingsBtn {
+    background-color: rgb(0 0 0) !important;
+}
+.settingsBtn:hover {
+    border: 1px solid #fff !important;
+} 
+.slider {
+    background-color: rgba(0,0,0,.5) !important;
+}
+input:checked+.slider {
+    background-color: #6b6b6b !important;
+}
 #menuClassSubtext {
     color: var(--white);
 }
+.mailObj {
+    border: 2px solid rgba(255,255,255,.10);
+}
+/* Buy Battlepass */
+
+.bp-generic-btn {
+    border:2px solid #fff !important;
+}
+.bp-generic-img-back{
+    height: 557px !important;
+}
+.bp-generic-img {
+    top: 100px !important;    
+    left: -50px !important;
+    height: 450px !important;
+    transform: rotate(-16deg);
+}
+.bp-generic-text{
+    visibility: hidden !important;
+    position: relative !important;
+}
+.bp-generic-text::after {
+    content: "Don't spend too much on games :)";
+    visibility: visible;
+    position: absolute;
+    font-family: gamefont;
+    font-size: 24px !important;
+    left: 540px !important;
+    top: -100px;
+    color: white;
+    text-shadow: 
+        1px 1px 3px rgba(0,0,0,0.7),
+        2px 2px 2px rgba(0,0,0,0.7),
+        3px 3px 1px rgba(0,0,0,0.7);
+}
+
+/* Skip Levels Battlepass */
+.bp-generic-header {
+    visibility: hidden !important;
+}
+.bp-generic-pop, .bp-purchase-pop {
+    border: 5px solid #fff;
+}
+/* Claim battlepass reward */
+.responsePop {
+    background-color: hsl(0deg 0% 0% / 70%);
+    border: 3px solid #fff;
+}
+/* Spin History */
+.spinHistoryHeader,.popHeader,  .dropsPopHeader {
+    border-bottom: 0px solid #fff;
+    background-color: hsl(0deg 0% 0% / 70%);
+}
+#spinHistoryPop, .spinHistoryStatsPop {
+    background-color: hsl(0deg 0% 0% / 50%);
+}
+#spinHistoryBtn {
+    background-color: #0000008a !important;
+    box-shadow: inset 0 -7px 0 0 #00000099 !important;
+}
+
 #customizeButton {
     opacity:0;
     bottom: 20px;
@@ -792,9 +1014,9 @@ display: none !important
     font-size: 0 !important;
     transition-duration:0.3s;
 }
-.clsXPBarC {
+.clsXPBarC, .xpEndBarB {
     background-color: #ffffff;
-}
+background-image: linear-gradient(to right,#191818,#ffffff) !important;}
 .classXPBar {
     opacity:0;
     transition-duration:0.3s;
@@ -858,6 +1080,17 @@ display: none !important
 
 #menuBtnHost, #menuBtnBrowser, #inviteButton, #menuBtnJoin, #policeButton {
     bottom: -135px;
+}
+/* Profile Icon*/
+.blurred {
+    filter: grayscale(0) opacity(1) !important;
+}
+.clsStatLvl {
+    font-size: 18px !important;
+}
+/* XP BARS */
+.xpBarB, .clsStatXPBarC {
+    background-image: linear-gradient(to right,#191818,#ffffff) !important;
 }
 #instructions {
         filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));    
@@ -945,6 +1178,140 @@ display: none !important
     display: none !important;
 }
 #aMerger {
-    opacity: 0; 
+    opacity: 0;
+}
+/*Spins*/
+#spinHeader
+/* Css Watermark */
+#bpAdIcon {
+    width: 95px;
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/refs/heads/main/heronight.jpg) !important;
+}
+#battlepassAd > div.helpTxtHol > div:nth-child(1)::after {
+    content: "CSS made by" !important;
+    color: #fff !important;
+    visibility: visible !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0;
+    font-size: 14px;
+}
+#battlepassAd .helpTxtHol div:nth-child(2)::after {
+    content: "HeroNight";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    font-size: 20px;
+    color: #dd90f9;
+    visibility: visible;
+    display: block;
+}
 
+#battlepassAd > div.helpTxtHol > div:nth-child(1),
+#battlepassAd > div.helpTxtHol > div:nth-child(2) {
+    visibility: hidden !important;
+    position: relative !important;
+}
+/* Spin Window (optional) */
+# spinHeader {
+    visibility: hidden !important;
+}
+# spinHeader::before {
+    content: "your text" !important;
+    color: #fff !important;
+    visibility: visible !important;
+    position: absolute !important;
+    left: -20%;
+}
+# spinCost {
+    visibility: hidden !important;
+}
+# spinCost::before {
+    content: "your text" !important;
+    color: #fff !important;
+    visibility: visible !important;
+    position: absolute !important;
+    left: -8px;
+}
+/* 2FA Window */
+#twoFAPop {
+    background-image: url(https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/refs/heads/main/aaa.jpg);
+}
+#twoFAWindow {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+#twoFAmsg {
+    color: white !important;
+}
+.twoFAIn, #purchaseSelector, .contPop {
+    border: 2px solid #fff !important;
+    background-color: rgba(0, 0, 0, .5);
+}
+.twoFAHeader {
+    background-color: rgba(0,0,0,0.7) !important;
+    border-bottom: 5px solid #fff !important;
+}
+#popupBack, #purchaseBack {
+    background-color: rgba(0,0,0,.95);
+}
+/* Krunkies Shop*/
+#purchaseSelector > div:nth-child(1)::after {
+    content: "You openned the IRL money grabber, Watchout !! The producer of this CSS isn't lying when he say its 100% covered" !important;
+    color: #fff !important;
+    visibility: visible !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 10 !important;
+    font-size: 18px;
+}
+#purchaseSelector > div:nth-child(2)::after {
+    content: "I hope your reading this and your saying to yourself, wow this CSS really covers 100% of the game";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    font-size: 17px;
+    color: rgba(255, 255, 255, .4);
+    visibility: visible;
+}
+
+#purchaseSelector > div:nth-child(1),
+#purchaseSelector > div:nth-child(2) {
+    visibility: hidden !important;
+    position: relative !important;
+}
+#xsollaPayB, .pay-button {
+    border: 1px solid #fff !important;
+    background-color: #000000d9 !important;
+}
+#purchaseSelector {
+  width: 716px;
+}
+/* Junkyard card */
+.crftRcpeCrd {
+    border: px solid #ffffff14 !important;
+    background: rgb(0 0 0 / 50%);
+}
+#doubleXPHolder {
+    border: 4px solid #eaeaea !important;
+    background-color: rgba(0, 0, 0, .6);
+}
+/*COMPETITIVE WINDOW*/
+#compClassPHolder, .compTScrB, #compTScrsB > div > div:nth-child(2), .compMenBtnS, .compSwpTmB {
+    background-color: #00000000 !important; 
+}
+
+#uiBase.onCompMenu #chatHolder {
+    bottom: 140px !important;
+}
+.compClassPItm {
+    border: 4px solid #000 !important;    
+}
+#cmpDatBox {
+    border-left: 20px solid #fff !important;
+    text-shadow: -1px -1px 0 #1c1c1c, 1px -1px 0 #1c1c1c, -1px 1px 0 #1c1c1c, 1px 1px 0 #1c1c1c, -2px -2px 0 #1c1c1c, 2px -2px 0 #1c1c1c, -2px 2px 0 #1c1c1c, 2px 2px 0 #1c1c1c, -3px -3px 0 #1c1c1c, 3px -3px 0 #1c1c1c, -3px 3px 0 #1c1c1c, 3px 3px 0 #1c1c1c, -4px -4px 0 #1c1c1c, 4px -4px 0 #1c1c1c, -4px 4px 0 #1c1c1c, 4px 4px 0 #1c1c1c, -5px -5px 0 #1c1c1c, 5px -5px 0 #1c1c1c, -5px 5px 0 #1c1c1c, 5px 5px 0 #1c1c1c, -6px -6px 0 #1c1c1c, 6px -6px 0 #1c1c1c, -6px 6px 0 #1c1c1c, 6px 6px 0 #1c1c1c;
+}
 /*By HeroNight*/
