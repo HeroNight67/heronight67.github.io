@@ -1,9 +1,9 @@
 /* Since I started playing Krunker, I always loved watching Krunker Streamer and see how their game looks and how they play to compare myself to them, you know see what is wrong / nice / cool / interesting. 
 And there is one thing I didn't had is a cool CSS that I liked, so I created my own CSS not from nothing but from the Idea, the mood, the colorness of "Ntec" an old famous krunker streamer "very accurate player".
 
-You may find similarity with my css and some old Ntec's css. His original css have not been updated since a good 2 years from now, and I wanted that mood again, so here it is. 
-*/
-/*Discord : heronight67 */
+You may find similarity with my css and some old Ntec's css. His original css have not been updated since a good 2 years from now, and I wanted that mood again, so here it is. */
+
+/* Discord : heronight67 */
 
 
 /* COLORS */
@@ -14,7 +14,6 @@ You may find similarity with my css and some old Ntec's css. His original css ha
     --transp: #15151500;
     --outline: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
     --outline2: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
-    --buildcode: 'b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn';
 }
 /* FONT */
 @font-face {
@@ -23,68 +22,68 @@ You may find similarity with my css and some old Ntec's css. His original css ha
 }
     /* Loading UI + Ingame UI CLASS ICON */
 /* Assault */
-img[src="https://assets.krunker.io/textures/classes/icon_0.png?build=" var(--buildcode)] {
+img[src="https://assets.krunker.io/textures/classes/icon_0.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
     content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/refs/heads/main/Assault.png');
 }
 /* Sniper */
-img[src="https://assets.krunker.io/textures/classes/icon_1.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/Sniper.png');
+img[src="https://assets.krunker.io/textures/classes/icon_1.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/Sniper.png');
 }
 /* Run N Gun */
-img[src="https://assets.krunker.io/textures/classes/icon_2.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/SMG.png');
+img[src="https://assets.krunker.io/textures/classes/icon_2.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/SMG.png');
 }
 /* Srayn N Pray */
-img[src="https://assets.krunker.io/textures/classes/icon_3.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/LMG.png');
+img[src="https://assets.krunker.io/textures/classes/icon_3.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/LMG.png');
 }
 /* Vince */
-img[src="https://assets.krunker.io/textures/classes/icon_4.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/Shotgun.png');
+img[src="https://assets.krunker.io/textures/classes/icon_4.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/Shotgun.png');
 }
 /* Detective */
-img[src="https://assets.krunker.io/textures/classes/icon_5.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/rev.png');
+img[src="https://assets.krunker.io/textures/classes/icon_5.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/rev.png');
 }
 /* Marksman */
-img[src="https://assets.krunker.io/textures/classes/icon_6.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/semi.png');
+img[src="https://assets.krunker.io/textures/classes/icon_6.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/semi.png');
 }
 /* Rocketeer */
-img[src="https://assets.krunker.io/textures/classes/icon_7.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/rocketeer.png');
+img[src="https://assets.krunker.io/textures/classes/icon_7.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/rocketeer.png');
 }
 /* Agent / ninja ;) */
-img[src="https://assets.krunker.io/textures/classes/icon_8.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/uzi.png');
+img[src="https://assets.krunker.io/textures/classes/icon_8.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/uzi.png');
 }
 /* Runner */
-img[src="https://assets.krunker.io/textures/classes/icon_9.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/Runner.png');
+img[src="https://assets.krunker.io/textures/classes/icon_9.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/Runner.png');
 }
 /* Deagler */
-img[src="https://assets.krunker.io/textures/classes/icon_10.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/deagler.png');
+img[src="https://assets.krunker.io/textures/classes/icon_10.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/deagler.png');
 }
 /* Bowman */
-img[src="https://assets.krunker.io/textures/classes/icon_11.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/bowman.png');
+img[src="https://assets.krunker.io/textures/classes/icon_11.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/bowman.png');
 }
 /* Commando */
-img[src="https://assets.krunker.io/textures/classes/icon_12.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/famas.png');
+img[src="https://assets.krunker.io/textures/classes/icon_12.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/famas.png');
 }
 /* Trooper */
-img[src="https://assets.krunker.io/textures/classes/icon_13.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/blaster.png');
+img[src="https://assets.krunker.io/textures/classes/icon_13.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/blaster.png');
 }
 /* Surviror */
-img[src="https://assets.krunker.io/textures/classes/icon_14.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/survivor.png');
+img[src="https://assets.krunker.io/textures/classes/icon_14.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/survivor.png');
 }
 /* Infiltrator */
-img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=" var(--buildcode)] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/main/chargeRifle.png');
+img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/chargeRifle.png');
 }
 /* EndGame Icon */
 #victorySub {
