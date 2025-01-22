@@ -3,7 +3,7 @@ And there is one thing I didn't had is a cool CSS that I liked, so I created my 
 
 You may find similarity with my css and some old Ntec's css. His original css have not been updated since a good 2 years from now, and I wanted that mood again, so here it is. 
 */
-
+/*Discord : heronight67 */
 
 
 /* COLORS */
@@ -23,7 +23,7 @@ You may find similarity with my css and some old Ntec's css. His original css ha
     /* Loading UI + Ingame UI CLASS ICON */
 /* Assault */
 img[src="https://assets.krunker.io/textures/classes/icon_0.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
-    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icpns/main/Assault.png');
+    content: url('https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/refs/heads/main/Assault.png');
 }
 /* Sniper */
 img[src="https://assets.krunker.io/textures/classes/icon_1.png?build=b0cQKIvToz7FDFT5Z70zupiFEZ0sZFAn"] {
