@@ -111,7 +111,7 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=b0cQKIvToz
 #matchInfo, #timerIcon, #maxHP, #ammoMax, #ammoIcon, #curGameInfo, #reloadMsg, #bundlePop, #premiumPop, {
     display: none !important
 }
-#premiumPop, #PC7WaterMark1 {
+#premiumPop, #PC7WaterMark1, #aContainer, #aMerger {
         display: none !important
 }
 #timerDisplay {
@@ -1185,11 +1185,7 @@ background-image: linear-gradient(to right,#191818,#ffffff) !important;}
 #topRightAdHolder, #mapInfoHld, #krDiscountAd, #infoHolder, #topLeftAdHolder, #streamContainer, #menuTimer, #PC7WaterMark, #PC7WaterMark2, #editorBtnM, .menuSocialB, .verticalSeparator {
     display: none !important;
 }
-#aMerger {
-    opacity: 0;
-}
-/*Spins*/
-#spinHeader
+
 /* Css Watermark */
 #bpAdIcon {
     width: 95px;
