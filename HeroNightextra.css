@@ -1,0 +1,639 @@
+/* This CSS has not fully been made by me, but it has been shared by someone named "Maqro". It was 80% - 90% broken, and he gaved me approval to work/use/advertise it. So the main idea is not from me but it has hole structure has been reworked by me. */
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://dl.dropboxusercontent.com/s/ndieu9q1ge8vzhr/main.ttf?dl=0);
+}
+    /* BIG Removal */
+#menuClassIcn, #mapInfoHld ,.weapKey, #CVersion, #faceitVideo, #mainLogoFace, #killCardKick, #killCardBy, #loadEditrBtn, #loadInfoLHolder, #loadTipsHolder, .endAHolder, #aHolder, #seasonLabel, #newsHolder, #bubbleContainer, #reloadMsg, #igXPBar, #rankedSoonTm, #hudClassIcon, #termsInfo,.headerBarRight, #menuClassName, #menuClassSubtext, #instructions, #loadInfoRHolder, #loadInfoLHolder, #tlInfHold {
+    display:none!important
+}
+#bottomLeftTeamType, #bottomLeftTeamName, #newsHolder, #mainLogo, #popupContent, #claimPop, #topRightAdHolder, #streamContainer, #updateAd, #rankedBlog, #aContainer, #aMerger, #seasonLabel, #aHolder, #krDiscountAd, #rankedSoonTm, #twitchDropsAd, #dropsPop, #newUserGuide, .greyInlineInner, .weapSkin, .weapStreak,  .weapStreakHolder, #bottomLeftTeamType {
+    display: none !important;
+}
+#loadInfoRHolder, #loadEditrBtn, #faceItIconM, #headerRight, .rankClck, #bottomLeftChallIcon, #chatSwitch, #cmpDatBox, .compPlWepsL, .cmpTmHed, .compPlWepsR {
+    display: none !important;
+}
+#bundlePop, #premiumPop, #popupContent, #claimPop, .progressBar, .menuItemTitle, #roundsDisplay {
+display:none!important
+}
+#menuClassNameTag [src*="./img/ranked"] {
+    display: none !important;
+}
+#leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_0.svg"] { display: none; }
+#leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_1.svg"] { display: none; }
+#leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_2.svg"] { display: none; }
+#leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_3.svg"] { display: none; }
+#leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_4.svg"] { display: none; }
+#leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_5.svg"] { display: none; }
+
+/* Only background */
+
+#spinHistoryPop, .greyInner, .greyInlineInner, .greyInlineInnerMid, .weapItemInner, .weapItem, #leaderContainer, #timerInner.topLeftOld, #bottomLeftPlayer, #bottomLeftPlayerLeft, #bottomLeftPlayerRight, #bottomLeftTeamType, #bottomLeftTeamName, #bottomLeftHealthBar {
+    background-color: transparent !important;
+}
+.spinHistoryHeader, .popHeader, .dropsPopHeader, .vouchPop {
+    background-color: rgb(0 0 0 / 65%);
+}
+#popupBack {
+    background-color: rgb(0 0 0 / 85%);
+}
+.spinHistoryStatsPop {
+    background-color: rgb(0 0 0 / 25%);
+}
+#initLoader {
+    background-color: #fff;
+}
+.menBtnIcn {
+    color: #fff !important;
+}
+.progressBarInner {
+    height: 100%;
+    background-image: linear-gradient(to right,#fff,#fff,94%,white);
+    transition: width 1s ease-in-out;
+    border-radius: 3px;
+}
+.nHealthBarSeg {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, .4);
+}
+#bottomLeftHolder {
+    z-index: 10;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    text-align: left
+}
+#bottomLeftHealthBar {
+    position: absolute;
+    display: flex;
+    bottom: 0%;
+    margin: -10px;
+    height: 0px;
+    bottom: 54px;
+    left: 117px;
+}
+.nHealthBarSeg {
+    width: 40px !important;
+    display: inline-block !important;
+    border-radius: 5px !important;
+    margin-right: 6px !important;
+    height: 48px !important;
+    background-color: rgba(0, 0, 0, .4) !important;
+}
+.nHpBSeg {
+    height: 48px !important;
+    border-radius: 5px !important;
+    box-shadow: inset 0 -10px 0 0 rgba(0, 0, 0, .28) !important
+}
+#bottomLeftHealth {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .35);
+    border-radius: 5px;
+    padding: 3px;
+    bottom: 61px;
+    padding-right: 7px;
+    padding-left: 9px;
+    color: #fff;
+    font-size: 20px;
+    will-change: transform;
+    display: inline-block;
+    left: 116px;
+}
+#bottomLeftHealth:after {
+    content: url(https://krunker.io/img/hp_0.png);
+    margin-left: 8px;
+    margin-top: -6000px !important;
+}
+
+/* chat  */
+#chatInput {
+    height: 45px;
+    width: 340px;
+    padding: 6px;
+    padding-left: 10px;
+    margin-top: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 0px;
+}
+#chatInputHolder {
+   background-color:rgb(0 0 0 / 0%);
+   border:none;
+   padding: 0px;
+}
+#chatList {
+    margin-left: 1px;
+    margin-bottom: -11px;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.chatItem {
+    padding-left: 7px !important; 
+    border-radius: 4px;
+    padding: 6.5px;
+    word-wrap: break-word;
+    display: inline-block;
+    margin-bottom: 010px;
+    margin-top: 0px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+    max-width: 310px;
+    background-color: rgba(0, 0, 0, 0.4) !important
+}
+#chatList::-webkit-scrollbar-track {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    border-radius: unset;
+    background-color: rgba(0,0,0,.5)
+}
+#chatList::-webkit-scrollbar {
+    width: 7px
+}
+#chatList::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    border-color: #36393f
+}
+#uiBase.onSpect #chatHolder {
+    bottom: 20px;
+}
+#uiBase.onCompMenu #chatHolder {
+    bottom: 20px;
+}
+#uiBase.onGame #chatHolder {
+    bottom: 130px;
+}
+#specNames.topLeftOld {
+    background-color: rgba(0, 0, 0, 0);
+    top: 1920px !important;
+}
+
+/* health */
+#uiBase.onMenu #spectButton {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: calc(-47%);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: rgb(255 255 255 / 38%);
+    font-size: 18px;
+}
+#spectButton {
+    bottom: 50% !important;
+}
+.verticalSeparator {
+    background: transparent;
+}
+
+.weapIcon {
+    transform: scale(1.2);
+}
+#weapHolder {
+    right: 25px;
+    bottom: 90px;
+    row-gap: 4px
+}
+#timerHolder.topLeftOld {
+    padding: 0px !important;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#leaderboardHolder, .statIcon, #ammoHolder {
+    background-color: rgba(0,0,0,.4) !important;
+}
+
+
+/* Leaderboard */
+
+#centerLeaderDisplay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    overflow-y: auto;
+    pointer-events: auto;
+    font-size: 20px;
+    text-align: left;
+    color: rgba(255,255,255,.7);
+    row-gap: 10px
+}
+.centerLeaderContainer {
+    text-align: left;
+    color: #fff;
+    border-radius: 4px;
+    background-color: transparent
+}
+.centerLeaderContainerInner {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.4);
+}
+.newLeaderTeam {
+    background-color: transparent
+}
+.newLeaderTeamScore {
+    color: white;
+}
+
+/* Competition */
+
+#compBtnLst, #compClassPHolder, .compPLstIcn {
+    border-radius: 0px;
+    border: none !important;
+    background-color: transparent !important;
+}
+#uiBase.onCompMenu #chatHolder {
+    bottom: 20px !important;
+}
+#uiBase.onGame #chatHolder {
+    bottom: 130px !important;
+}
+.cmpClassLck {
+    width: 75px !important;
+}
+.compMenBtnS {
+    background-color: transparent !important;
+    width: 76px;
+    height: 86px;
+    border-radius: 0px;
+    border: none
+}
+.compClassPItm {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 0px;
+    background-color: rgb(0 0 0 / 0%);
+}
+.compClassPCnt {
+    bottom: -35px;
+    right: 20px;
+    color: #ffffff;
+    text-shadow: none;
+}
+#compTimBox {
+    position: absolute;
+    width: 100%;
+    bottom: 9px;
+    text-align: center;
+    color: rgb(255 255 255);
+    font-size: 18px;
+}
+.compTScrB {
+    width: 250px;
+    height: 100px;
+    line-height: 100px;
+    display: inline-block;
+    background: rgb(0 0 0 / 0%);
+    font-size: 50px;
+    vertical-align: top;
+    text-shadow: none
+}
+#instructionHolder {
+    backdrop-filter: grayscale(1);
+}
+#ammoVal, #ammoMax {
+    font-size:37px;  
+}
+#signedOutHeaderBar {
+    left: 160px;  
+}
+#customizeButton {
+    opacity:0;
+    bottom: -70px;
+    text-shadow:none !important;
+    height: 340px;
+    width: 340px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+    font-size: 20px!important;
+    pointer-events: all;
+    padding-bottom: 22px;
+    line-height: 250px;
+}
+#classPreviewCanvas {
+    transition: none !important;
+    margin-bottom: -550px;
+    margin-right: -230px;
+    opacity: 0;
+    scale: 1;
+}
+#ammoIcon {
+    margin-bottom: -5px;
+    margin-right: 10px;
+    margin-left: 5px;
+    vertical-align: bottom;
+    height: 63px
+}
+#bottomLeftClassImg {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.4)
+}
+#maxHP {
+    display: fixed !important;
+    color: rgba(255,255,255,.8)
+}
+#recTimer {
+    color: rgba(255,255,255,.6);
+    transform: scale(1);
+    position: absolute;
+    bottom: 13px;
+    font-size: 20px;
+    margin-left: 30px !important;
+}
+#voiceIcon {
+    transform: scale(1.3);
+    position: absolute;
+    bottom: 12px;
+margin-left: -15px !important;
+}
+.voiceOn:after {
+    content: "mic";
+    color: #a9ff73
+}
+.voiceOff:after {
+    content: "mic_off";
+    color: rgba(255,255,255,.6)
+}
+#menuMiniProfilePic {
+    background: rgb(0 0 0 / 13%);
+    position: fixed;
+    margin: 0;
+    top: 20px;
+    right: 20px;
+    width: 258px;
+    height: 258px;
+    border-radius: 50%;
+    border: 5px solid white;
+    image-rendering: none;
+}
+#menuAccountUsername {
+    position: fixed;
+    right: 319px;
+    top: 30px;
+    font-size: 32px;
+    max-width: 8em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 2;
+}
+#mLevelContV {
+    position: fixed;
+    right: 295px;
+    top: 100px;
+    transform: translateX(-50%);
+    line-height: unset;
+    font-size: 32px;
+}
+#mLevelContV::before {
+    content: "lvl";
+    position: absolute;
+    left: -60%;
+    bottom:10px;
+    transform: translateX(-50%);
+    font-size: 20px;
+    z-index: -1;
+}
+#mailContainer {
+    font-size: 32px;
+    position: fixed;
+    right: 100px;
+    top: 220px;
+    transform: translateX(-50%);
+    z-index: 2;
+    transition: 0.25s;
+}
+#mailIcon {
+    font-size: 57px !important;
+}
+.junkInfo {
+    opacity: 0;
+}
+.progressBarInner {
+    height: 100%;
+    background-image: linear-gradient(to right,#fff,#fff,94%,white);
+    transition: width 1s ease-in-out;
+    border-radius: 0px;
+}
+.krInfo {
+    color: white !important;
+    position: fixed;
+    right: -50px;
+    top: 320px;
+    transform: translateX(-50%);
+    line-height: unset;
+    font-size: 32px;
+}
+#menuKRCount {
+    display: inline-block;
+    color: rgb(255 255 255);
+    vertical-align: super;
+}
+#signedInHeaderBar {
+  background-color: transparent;
+height: 0px !important;
+}
+#mLevelCont {
+    background-color: rgb(0 0 0 / 0%);
+}
+#mailCount {
+    pointer-events: none;
+    z-index: 2;
+    color: #fff;
+    top: -1px;
+    right: -10px;
+    font-size: 10px;
+    background-color: #fbc02d;
+    border: 3px solid #605027;
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    position: absolute;
+    border-radius: 20px
+}
+
+/*menu holder */
+
+.button {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 6px;
+    border: 5px solid #fff0 !important;
+    text-align: center;
+    color: #fff;
+    pointer-events: all;
+    cursor: pointer;
+    -webkit-transition: none;
+    transition: none;
+    height: 30px;
+    vertical-align: bottom;
+    font-size: 32px;
+    line-height: 35px;
+    background-color: rgb(0 0 0 / 0%)
+}
+#subLogoButtons {
+    border:none !important;
+    position: middle;
+    bottom: 0px;
+}
+.headerBarLeft {
+    background-color: rgba(0, 0, 0, 0.11);
+    margin-left: -30px;
+}
+#menuItemContainer {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    bottom: -3px;;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(0 0 0 / 11%)
+}
+
+/*settings */
+
+#menuWindow {
+    background-color: rgb(0 0 0 / 0.45) !important;;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0) !important;
+}
+.settingsHeader {
+    background-color: #000000;
+}
+.setHedS {
+    background-color: rgb(80 80 80 / 15%) !important;
+}
+.setHed {
+    border: 4px solid rgb(255 255 255 / 0%);
+    background-color: rgb(80 80 80 / 0%);
+}
+.setHed:hover {
+    border: 4px solid rgb(255 255 255 / 0%);
+    background-color: rgb(80 80 80 / 10%);
+}
+.settingsBtn {
+    background-color: #616161;
+}
+.addAccBtn {
+    text-align: right;
+    font-size: 85% !important;
+}
+input:checked+.advancedSlider {
+    background-color: #444444;
+}
+input:checked+.slider {
+    background-color: #444444;
+}
+.slider:before {
+    position: absolute;
+    height: 22px;
+    width: 26px;
+    left: 4px;
+    top: 4px;
+;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 200px;
+}
+
+/* host game */
+.optCheck, .hostToggle, .hostPresetBtn,  .loadoutBtn {
+    background-color: #ffffff00;
+}
+input:checked+.optCheck, .hostToggle, .hostPresetBtn,  .loadoutBtn {
+    background-color: #444444;
+}
+
+/* Premium background */ 
+#menuWindow > div:nth-child(2) {
+    background-color: rgb(0 0 0 / 0) !important;
+}
+#menuWindow > div:nth-child(1){
+    border-radius: 10px !important;
+}
+
+/*mods */
+.menuLink, {
+    color: #444444 !important;
+}
+.selectorItem {
+background-color: #00000054;
+}
+.settLabel.blackShad {
+  color: #444444 !important;
+}
+#itemSearchH {
+background-color: #000000;
+}
+.classCard {
+    background-color: #b5b5b514;
+}
+
+/* death ui */
+
+.death-ui-bottom {
+    background: rgb(0 0 0 / 0%);
+    backdrop-filter: blur(0px) !important;
+    animation: none !important;
+}
+#uiBase.onDeathScrn #chatHolder {
+    left: 64px;
+    bottom: 75px;
+    animation: chat-moveup 0s ease
+}
+#itemSearch::placeholder {
+    color: #fff;
+}
+#itemSearchH, #selectorContainer {
+    background-color: rgba(0,0,0,0);
+}
+#itemSearch, .settingsHeader, #bindsHeader, .serverHeader, .custBack, .winSelH {
+    background-color: rgb(2 2 2 / 0.4);
+    border: none !important;
+}
+.skinCard {
+    background-color: #00000075;
+    text-shadow: var(--outline);
+    font-size: 20px;
+}
+.skinCard:hover {
+    background-color: var(--transp);
+}
+/* 2FA*/ 
+#twoFAmsg {    
+    color: rgb(255 255 255 / 35%);
+}
+.twoFAHeader {
+    background-color: #11111160 !important;
+}
+#twoFAbtn {
+    background-color: #f1f1f181;
+}
+#twoFAbtn:hover {
+    background-color: #f1f1f11f
+}
+.hostHeader {
+    border-radius: 0px !important;
+    text-align: center;
+    background-color: #00000000;
+}
+#stickyHostH {
+    background-color: #00000000;
+}
+#policeButton {
+    border: 0px solid #000 !important;
+}
