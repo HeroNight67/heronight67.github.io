@@ -829,6 +829,7 @@ display: none !important
 }
 #policePopC div {
     color: white !important;
+    margin-bottom: -4px !important;
 }
 .importPop, #policePopC {
     border: 2px solid #fff !important;
