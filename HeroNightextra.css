@@ -521,9 +521,6 @@ height: 0px !important;
     border: 4px solid rgb(255 255 255 / 0%);
     background-color: rgb(80 80 80 / 10%);
 }
-.settingsBtn {
-    background-color: #616161;
-}
 .addAccBtn {
     text-align: right;
     font-size: 85% !important;
@@ -568,7 +565,7 @@ input:checked+.optCheck, .hostToggle, .hostPresetBtn,  .loadoutBtn {
     color: #444444 !important;
 }
 .selectorItem {
-background-color: #00000054;
+background-color: #00000000;
 }
 .settLabel.blackShad {
   color: #444444 !important;
@@ -577,7 +574,7 @@ background-color: #00000054;
 background-color: #000000;
 }
 .classCard {
-    background-color: #b5b5b514;
+    background-color: #b5b5b507;
 }
 
 /* death ui */
@@ -604,6 +601,8 @@ background-color: #000000;
 }
 .settingsHeader {
     backdrop-filter: blur(10px);
+    background-color:#fff0 !important;
+    width: 1195px !important;
 }
 .skinCard {
     background-color: #00000075;
