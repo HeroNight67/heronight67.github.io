@@ -782,7 +782,7 @@ display: none !important
 .menBtnIcn {
     color: white !important;
 }
-.buttonO,.buttonP, .buttonR, .buttonPI {
+.buttonO,.buttonP, .buttonR, .buttonPI, #menuBtnRanked {
     border: 4px solid #ffffff! important;
 }
 #faceItIconM, #mainLogoFace, #seasonLabel, #hostMenuBtn {
@@ -1087,7 +1087,7 @@ background-image: linear-gradient(to right,#191818,#ffffff) !important;}
 
 /* Loading UI */ /*--*/ /* This CSS is made by HeroNight, and anyone else has no right into reselling it. DM on Discord : HeroNight67 for more information*/
 
-#menuBtnHost, #menuBtnBrowser, #inviteButton, #menuBtnJoin, #policeButton {
+#menuBtnHost, #menuBtnBrowser, #inviteButton, #menuBtnJoin, #policeButton, #menuBtnRanked {
     bottom: -135px;
 }
 /* Profile Icon*/
@@ -1187,26 +1187,21 @@ background-image: linear-gradient(to right,#191818,#ffffff) !important;}
     display: none !important;
 }
 
-/* Css Watermark */
-#bpAdIcon {
-    width: 95px;
-    height: 65px;
-    background-color: rgba(0, 0, 0, 0);
-    background-image: url(https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/refs/heads/main/heronight.jpg) !important;
-}
-#battlepassAd > div.helpTxtHol > div:nth-child(1)::after {
+
+#updateAd > div.helpTxtHol::after {
     content: "CSS made by" !important;
     color: #fff !important;
     visibility: visible !important;
     position: absolute !important;
-    left: -15px !important;
+    left: 5px !important;
     top: 0;
     font-size: 14px;
 }
-#battlepassAd .helpTxtHol div:nth-child(2)::after {
+
+#updateAdVersion::after {
     content: "HeroNight";
     position: absolute;
-    left: -15px !important;
+    left: 5px !important;
     top: 0;
     z-index: 1;
     font-size: 20px;
@@ -1215,11 +1210,19 @@ background-image: linear-gradient(to right,#191818,#ffffff) !important;}
     display: block;
 }
 
-#battlepassAd > div.helpTxtHol > div:nth-child(1),
-#battlepassAd > div.helpTxtHol > div:nth-child(2) {
+#updateAdIcon {
+    width: 60px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(https://raw.githubusercontent.com/HeroNight67/custom_css_Icons/refs/heads/main/heronight.jpg) !important;
+}
+
+
+#updateAd > div.helpTxtHol, #updateAdVersion {
     visibility: hidden !important;
     position: relative !important;
 }
+
 /* Spin Window (optional) */
 # spinHeader {
     visibility: hidden !important;
@@ -1319,4 +1322,21 @@ background-image: linear-gradient(to right,#191818,#ffffff) !important;}
     border-left: 20px solid #fff !important;
     text-shadow: -1px -1px 0 #1c1c1c, 1px -1px 0 #1c1c1c, -1px 1px 0 #1c1c1c, 1px 1px 0 #1c1c1c, -2px -2px 0 #1c1c1c, 2px -2px 0 #1c1c1c, -2px 2px 0 #1c1c1c, 2px 2px 0 #1c1c1c, -3px -3px 0 #1c1c1c, 3px -3px 0 #1c1c1c, -3px 3px 0 #1c1c1c, 3px 3px 0 #1c1c1c, -4px -4px 0 #1c1c1c, 4px -4px 0 #1c1c1c, -4px 4px 0 #1c1c1c, 4px 4px 0 #1c1c1c, -5px -5px 0 #1c1c1c, 5px -5px 0 #1c1c1c, -5px 5px 0 #1c1c1c, 5px 5px 0 #1c1c1c, -6px -6px 0 #1c1c1c, 6px -6px 0 #1c1c1c, -6px 6px 0 #1c1c1c, 6px 6px 0 #1c1c1c;
 }
+/* Account security update*/
+
+.io-popup-container.svelte-8dcztv {
+    background-color: #0a0a0a !important;
+}
+
+#genericPop > div > div.io-popup-content > div > div:nth-child(1) > div:nth-child(2) > ul > li:nth-child(1) {
+    color: #ffffff !important;
+}
+#genericPop > div > div.io-popup-content > div > div:nth-child(1) > div:nth-child(2) > ul > li:nth-child(2) {
+    color: #ffffff !important;
+}
+
+#genericPop > div > div.io-popup-content > div > div:nth-child(1) > div:nth-child(2) > ul > li:nth-child(3) {
+     color: #ffffff !important;   
+}
 /*By HeroNight*/
+
