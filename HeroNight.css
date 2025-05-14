@@ -1202,7 +1202,7 @@ background-image: linear-gradient(to right,#191818,#ffffff) !important;}
     content: "HeroNight";
     position: absolute;
     left: 5px !important;
-    top: 0;
+    top: -5px;
     z-index: 1;
     font-size: 20px;
     color: #dd90f9;
