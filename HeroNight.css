@@ -761,6 +761,9 @@ display: none !important
 #faceItIconM {
         display: none !important
 }
+.krInfo {
+    margin-left: 10px !important;
+}
 #killStreakHolder {
     position: relative;
     bottom: 300px;
