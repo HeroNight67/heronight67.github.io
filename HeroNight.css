@@ -507,11 +507,14 @@ img[src="https://assets.krunker.io/textures/classes/icon_15.png?build=fSwEfH0D9W
     background-color: transparent !important;
     position: relative;
     border-bottom: 4px solid #fff !important;
-    padding-bottom: 4px !important;
+    padding-bottom: 1px !important;
     filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
 }
 #leaderboardHolder {
     background-color: transparent !important;
+}
+.leaderItem{
+    margin-top: 3px !important;
 }
         /* SCORES */
         #teamScores {
