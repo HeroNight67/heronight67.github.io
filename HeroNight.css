@@ -1346,14 +1346,22 @@ background-image: linear-gradient(to right,#191818,#ffffff) !important;}
 }
 .streams-overlay.svelte-18uhppj {
     position: absolute;
-    top: 10px !important;
-    right: 170px !important;
+    top: 3px !important;
+    right: 150px !important;
     background-color: rgb(0 0 0 / 45%) !important;
 }
+
 .streams-overlay.closed.svelte-18uhppj {
     padding: 0px 16px !important;
+    transform: scale(0.75) !important;
 }
 .streams-header.svelte-18uhppj {
     margin-bottom: 0px !important;
+}
+.header-title-section.svelte-18uhppj {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 10px !important;
 }
 /*By HeroNight*/
