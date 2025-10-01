@@ -11,13 +11,16 @@
 #bottomLeftTeamType, #bottomLeftTeamName, #newsHolder, #mainLogo, #popupContent, #claimPop, #topRightAdHolder, #streamContainer, #updateAd, #rankedBlog, #aContainer, #aMerger, #seasonLabel, #aHolder, #krDiscountAd, #rankedSoonTm, #twitchDropsAd, #dropsPop, #newUserGuide, .greyInlineInner, .weapSkin, .weapStreak,  .weapStreakHolder, #bottomLeftTeamType {
     display: none !important;
 }
-#loadInfoRHolder, #loadEditrBtn, #faceItIconM, #headerRight, .rankClck, #bottomLeftChallIcon, #chatSwitch, #cmpDatBox, .compPlWepsL, .cmpTmHed, .compPlWepsR {
+#loadInfoRHolder, #loadEditrBtn, #faceItIconM, #headerRight, .rankClck, #bottomLeftChallIcon, #chatSwitch, #cmpDatBox, .compPlWepsL, .cmpTmHed, .compPlWepsR, #menuClassContainerInner {
     display: none !important;
 }
 #bundlePop, #premiumPop, #popupContent, #claimPop, .progressBar, .menuItemTitle, #roundsDisplay {
 display:none!important
 }
 #menuClassNameTag [src*="./img/ranked"] {
+    display: none !important;
+}
+.streams-overlay.closed.svelte-1ceimmu {
     display: none !important;
 }
 #leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_0.svg"] { display: none; }
@@ -308,11 +311,12 @@ display:none!important
     left: 160px;  
 }
 #customizeButton {
-    opacity:0;
+    bottom: 5px !important;
+    opacity: 0;
     bottom: -70px;
-    text-shadow:none !important;
-    height: 340px;
-    width: 340px;
+    text-shadow: none !important;
+    height: 500px;
+    width: 500px;
     display: inline-block;
     text-align: center;
     padding: 0px;
@@ -320,13 +324,19 @@ display:none!important
     pointer-events: all;
     padding-bottom: 22px;
     line-height: 250px;
+    position: fixed;
+    right: 30px;
 }
-#classPreviewCanvas {
-    transition: none !important;
-    margin-bottom: -550px;
-    margin-right: -230px;
-    opacity: 0;
-    scale: 1;
+#menuClassContainer {
+    position: absolute;
+    right: 21px;
+    bottom: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 99999;
+    text-align: right;
 }
 #ammoIcon {
     margin-bottom: -5px;
