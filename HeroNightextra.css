@@ -306,27 +306,11 @@ display:none!important
 #signedOutHeaderBar {
     left: 160px;  
 }
-#customizeButton {
-    bottom: 5px !important;
-    opacity: 0;
-    bottom: -70px;
-    text-shadow: none !important;
-    height: 500px;
-    width: 500px;
-    display: inline-block;
-    text-align: center;
-    padding: 0px;
-    font-size: 20px!important;
-    pointer-events: all;
-    padding-bottom: 22px;
-    line-height: 250px;
-    position: fixed;
-    right: 30px;
-}
+
 #menuClassContainer {
     position: absolute;
     right: 21px;
-    bottom: 150px;
+    bottom: 40px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
