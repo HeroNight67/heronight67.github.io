@@ -796,7 +796,7 @@ display: none !important
     height: 50px;
     background-color: transparent;
 }
-.button,.button:hover { 
+.button,.button:hover, #menuBtnRanked:hover { 
     border: hidden !important;
 }
 .menuItem:hover > .menuItemTitle {
@@ -1004,9 +1004,6 @@ input:checked+.slider {
 #classPreviewCanvas {
     transition: none !important;
     margin-bottom: -110px;
-    margin-right: -250px;
-    opacity: 0;
-    scale: 1;
 }
 #customizeButton .material-icons {
     display: none;
@@ -1353,6 +1350,28 @@ background-image: linear-gradient(to right,#191818,#ffffff) !important;}
 #cmpDatBox {
     border-left: 20px solid #fff !important;
     text-shadow: -1px -1px 0 #1c1c1c, 1px -1px 0 #1c1c1c, -1px 1px 0 #1c1c1c, 1px 1px 0 #1c1c1c, -2px -2px 0 #1c1c1c, 2px -2px 0 #1c1c1c, -2px 2px 0 #1c1c1c, 2px 2px 0 #1c1c1c, -3px -3px 0 #1c1c1c, 3px -3px 0 #1c1c1c, -3px 3px 0 #1c1c1c, 3px 3px 0 #1c1c1c, -4px -4px 0 #1c1c1c, 4px -4px 0 #1c1c1c, -4px 4px 0 #1c1c1c, 4px 4px 0 #1c1c1c, -5px -5px 0 #1c1c1c, 5px -5px 0 #1c1c1c, -5px 5px 0 #1c1c1c, 5px 5px 0 #1c1c1c, -6px -6px 0 #1c1c1c, 6px -6px 0 #1c1c1c, -6px 6px 0 #1c1c1c, 6px 6px 0 #1c1c1c;
+}
+/*------------ Ranked Page------------ */
+.rankedMenuModal {
+    pointer-events: auto;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 1100px;
+    height: 840px;
+}
+.menu-container.svelte-mqcul7 {
+    background-color: #5ce05a9c !important;
+}
+.menu-item.svelte-mqcul7, .region-indicator.svelte-mqcul7 {
+    color: #000 !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
 }
 /* Account security update*/
 .io-popup-container.svelte-18uhppj {
