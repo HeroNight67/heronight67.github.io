@@ -435,7 +435,7 @@ margin-left: -15px !important;
     color: white !important;
     position: fixed;
     top: 410px;
-    transform: translateX(560%);
+    right: 50px;
     line-height: unset;
     font-size: 43px;
 }
