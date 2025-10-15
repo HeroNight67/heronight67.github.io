@@ -380,6 +380,9 @@ margin-left: -15px !important;
     z-index: 2;
     border: none !important;
 }
+#mLevelCont {
+    background-color: rgb(0 0 0 / 0) !important;
+}
 #mLevelContV {
     position: fixed;
     right: 383px;
@@ -397,7 +400,6 @@ margin-left: -15px !important;
     transform: translateX(-50%);
     font-size: 20px;
     z-index: -1;
-    background-color: rgb(0 0 0 / 0) !important;
 }
 #mailContainer {
     font-size: 32px;
